@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V-oyrl70gmotb9vugtsk4u">
+		<property name="$metaclass" value="ComponentDiagram20"/>
+		<property name="$name" value="Component Diagram1"/>
+		<property name="#invoke_inplace" value="com.tssap.selena.model.ui.navigator.view"/>
+	</view>
+</nodeSet>

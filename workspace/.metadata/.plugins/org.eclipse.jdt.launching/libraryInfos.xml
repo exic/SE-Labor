@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryInfos>
+<libraryInfo home="C:\Users\grjo1012\Desktop\2K8L\jre" version="1.5.0_14">
+<bootpath>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\rt.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\i18n.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\jsse.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\jce.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\charsets.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\grjo1012\Desktop\2K8L" version="1.5.0_14">
+<bootpath>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\rt.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\i18n.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\jsse.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\jce.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\charsets.jar"/>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

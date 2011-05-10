@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="71" version="2.0">
+<workbenchAdvisor/>
+<window height="984" maximized="true" width="640" x="460" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="213" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1302016649304" focus="true" label="Arbeitsbereich - Modellierung">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.borland.tg.gde.diagramEditor" name="Wissen testen" partName="Wissen testen" title="Wissen testen" tooltip="Wissen testen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8wmojc9w3897"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" partName="Spiel starten und vorbereiten" title="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" partName="Würfeln und Ziehen" title="Würfeln und Ziehen" tooltip="Würfeln und Ziehen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Software-Engineering" rc="design:view:::8qqttgn8whyu9-iy5upu"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Class Diagram1" partName="Class Diagram1" title="Class Diagram1" tooltip="Class Diagram1" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Software-Engineering" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Wissen testen" partName="Wissen testen" title="Wissen testen" tooltip="Wissen testen" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Software-Engineering" rc="design:view:::V-b8dyjigm50e65x-gg7a2i"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Eigenschaften">
+<viewState/>
+</view>
+<view id="com.borland.selena.modelmarker.modelbookmarks.view" partName="Lesezeichen für Modell">
+<viewState/>
+</view>
+<view id="com.tssap.selena.model.ui.navigator.view" partName="Modellnavigator">
+<viewState linkWithEditor="false">
+<expanded>
+<element element="model:project::Software-Engineering" model="model:project::Software-Engineering"/>
+<element element="design:view:::V-jr6xbagm4zfgi2-jm21l4" model="model:project::Software-Engineering"/>
+</expanded>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>&#x0A;<filter element="*.class" isEnabled="false"/>
+<filter element=".*" isEnabled="false"/>
+<filter element="*.txv*" isEnabled="false"/>
+<filter element="*.txa*" isEnabled="false"/>
+<filter element="Model Folder" isEnabled="false"/>
+</filters>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.togethersoft.togetherxj.uml.perspective.ModelingPerspective" id="com.togethersoft.selena.perspective.uml" label="Modellierung"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.borland.dsl.model.search.actionSet"/>
+<alwaysOnActionSet id="com.borland.gendoc.ui.actionSet"/>
+<alwaysOnActionSet id="com.borland.m2m.qvt.QvtDebug"/>
+<alwaysOnActionSet id="com.borland.sanctuary.actionSet"/>
+<alwaysOnActionSet id="com.borland.selena.internal.model.ide.searchActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.QvtDebug"/>
+<alwaysOnActionSet id="com.borland.together.project.verifier"/>
+<alwaysOnActionSet id="com.borland.selena.profile.deployActionSet"/>
+<alwaysOnActionSet id="com.borland.selena.profile.profileActionSet"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelDiffActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.diagramActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.navigateDiagramActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.gde.image.exportActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.m2t.runtime.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.actions"/>
+<alwaysOnActionSet id="com.borland.tg.mda.qvt.runtime.actions"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelAuditsActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.team.compare.modelDiffActionSet"/>
+<alwaysOnActionSet id="com.borland.tg.xsl.ui.ocl.trax.actionSet"/>
+<alwaysOnActionSet id="com.togethersoft.selena.model.navigation.referenceManagementActionSet"/>
+<alwaysOnActionSet id="com.togethersoft.togetherxj.uml.actions.gencdActionSet"/>
+<alwaysOnActionSet id="com.tssap.selena.model.ui.modelActionSet"/>
+<show_view_action id="com.togethersoft.togetherxj.java.explorer.views.UMLExplorerView"/>
+<show_view_action id="com.borland.selena.modelmarker.modelbookmarks.view"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="com.tssap.selena.model.ui.navigator.view"/>
+<new_wizard_action id="com.borland.tg.mda.model2text.wizards.InvokeWizard"/>
+<new_wizard_action id="com.borland.tg.mda.qvt.wizards.NewQVTTransformationWizard"/>
+<new_wizard_action id="com.borland.tg.mda.qvt.wizards.NewQvtLibraryWizard"/>
+<new_wizard_action id="com.borland.tg.mda.xsl.ui.ocl.trax.wizards.NewXSLTransformation"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.togethersoft.togetherxj.modeling.diagram"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.borland.dsl.ui.dslPerspective"/>
+<perspective_action id="com.togethersoft.selena.perspective.uml"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="128" id="org.eclipse.ui.internal.ViewStack@1d8b01d" orientation="512" selectedTabId="com.tssap.selena.model.ui.navigator.view" style="1">
+<fastViews>
+<view id="com.tssap.selena.model.ui.navigator.view" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@11269e5" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="1">
+<fastViews>
+<view id="com.borland.selena.modelmarker.modelbookmarks.view" ratio="0.3"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.298066"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d8b01d">
+<folder appearance="2" expanded="0">
+<page content="com.tssap.selena.model.ui.navigator.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f6c90f" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19638649" ratioLeft="250" ratioRight="1023" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11269e5" ratio="0.6692427" ratioLeft="433" ratioRight="214" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="com.borland.selena.modelmarker.modelbookmarks.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.borland.tg.bpm.simulation.ui.SV" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Software-Engineering" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8wmojc9w3897"/>
+</editors>
+<item historyLabel="Class Diagram1/[Klasse]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugn8y92rubqs34s"/>
+</item>
+<item historyLabel="Class Diagram1/Heimatfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothn91-b04qdd"/>
+</item>
+<item historyLabel="Class Diagram1/[Klasse]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugn8y82nbuyrwvi"/>
+</item>
+<item historyLabel="Class Diagram1/Pfad" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothhku-gajbh0"/>
+</item>
+<item historyLabel="Class Diagram1/Startfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/Kategoriefeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothwecva24mw"/>
+</item>
+<item historyLabel="Class Diagram1/Wissensstandsanzeigerfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmoti476-dcal0h"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Wissensstandsanzeigerfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovx9vs-fgh9rf@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Wissensstandsanzeiger] -&gt; [Wissensstandsanzeigerfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8thpvn-d4uw6r@-tdsqjugmotgt74-xtlljz:design@node@@@-tdsqjugmotgt74-xtlljz"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Wissensstandsanzeigerfeld] -&gt; [Spielbrett]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovxv7l4gg10s@-tdsqjugmoti476-dcal0h:design@node@@@-tdsqjugmoti476-dcal0h"/>
+</item>
+<item historyLabel="Class Diagram1/Startfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Startfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovz3pu-ge7c60@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/Spielbrett" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/Startfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/Spielbrett" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/Startfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Startfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovz3pu-ge7c60@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/Startfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/Pfad" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothhku-gajbh0"/>
+</item>
+<item historyLabel="Class Diagram1/Heimatfeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothn91-b04qdd"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Heimatfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovy8qy-36iu5j@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/Kategoriefeld" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothwecva24mw"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Kategorie] -&gt; [Kategoriefeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8yc8cg6be0nj@-tdsqjugmotgmvd9gkklt:design@node@@@-tdsqjugmotgmvd9gkklt"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovz92r-r9n5tr@-tdsqjugmothqym-zhziq2:design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Startfeld] -&gt; [Pfad]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8ycnv1-czmeev@-tdsqjugmothqym-zhziq2:design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/2-4" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@clientCardinality@design@link@@@ieje0rgn8ycnv1-czmeev@-tdsqjugmothqym-zhziq2:design@link@@@ieje0rgn8ycnv1-czmeev@-tdsqjugmothqym-zhziq2:design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spielbrett] -&gt; [Pfad]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovzs4a-8kh7fc@-tdsqjugmoth9a6-1u2j3j:design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spielsystem] -&gt; [Spielbrett]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8x1l4pcljxnb@-tdsqjugn8x0j24-ym6so4:design@node@@@-tdsqjugn8x0j24-ym6so4"/>
+</item>
+<item historyLabel="Class Diagram1/hat" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@label@design@link@@@ieje0rgn8x1l4pcljxnb@-tdsqjugn8x0j24-ym6so4:design@link@@@ieje0rgn8x1l4pcljxnb@-tdsqjugn8x0j24-ym6so4:design@node@@@-tdsqjugn8x0j24-ym6so4"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Startfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovz3pu-ge7c60@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Heimatfeld] -&gt; [Spielbrett]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovykxlfempvw@-tdsqjugmothn91-b04qdd:design@node@@@-tdsqjugmothn91-b04qdd"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spieler] -&gt; [Heimatfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovy8qy-36iu5j@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Kategorie] -&gt; [Kategoriefeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8yc8cg6be0nj@-tdsqjugmotgmvd9gkklt:design@node@@@-tdsqjugmotgmvd9gkklt"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Wissensstandsanzeiger] -&gt; [Wissensstandsanzeigerfeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8thpvn-d4uw6r@-tdsqjugmotgt74-xtlljz:design@node@@@-tdsqjugmotgt74-xtlljz"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Wissensstandsanzeigerfeld] -&gt; [Spielbrett]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovxv7l4gg10s@-tdsqjugmoti476-dcal0h:design@node@@@-tdsqjugmoti476-dcal0h"/>
+</item>
+<item historyLabel="Class Diagram1/hat" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@label@design@link@@@ieje0rgmovxv7l4gg10s@-tdsqjugmoti476-dcal0h:design@link@@@ieje0rgmovxv7l4gg10s@-tdsqjugmoti476-dcal0h:design@node@@@-tdsqjugmoti476-dcal0h"/>
+</item>
+<item historyLabel="Class Diagram1/Pfad" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugmothhku-gajbh0"/>
+</item>
+<item historyLabel="Class Diagram1/Spielsystem" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@node@@@-tdsqjugn8x0j24-ym6so4"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Startfeld] -&gt; [Pfad]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8ycnv1-czmeev@-tdsqjugmothqym-zhziq2:design@node@@@-tdsqjugmothqym-zhziq2"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Wissensstreiter] -&gt; [Pfad]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgn8yfg7s21mq62@-tdsqjugmotgh8po1m1l6:design@node@@@-tdsqjugmotgh8po1m1l6"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spielbrett] -&gt; [Pfad]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovzs4a-8kh7fc@-tdsqjugmoth9a6-1u2j3j:design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/hat" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@label@design@link@@@ieje0rgmovzs4a-8kh7fc@-tdsqjugmoth9a6-1u2j3j:design@link@@@ieje0rgmovzs4a-8kh7fc@-tdsqjugmoth9a6-1u2j3j:design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/[Kernel-Assoziation: [Spielbrett] -&gt; [Kategoriefeld]]" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::design@link@@@ieje0rgmovzxll-30zzpi@-tdsqjugmoth9a6-1u2j3j:design@node@@@-tdsqjugmoth9a6-1u2j3j"/>
+</item>
+<item historyLabel="Class Diagram1/0-12" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@clientCardinality@design@link@@@ieje0rgn8yfg7s21mq62@-tdsqjugmotgh8po1m1l6:design@link@@@ieje0rgn8yfg7s21mq62@-tdsqjugmotgh8po1m1l6:design@node@@@-tdsqjugmotgh8po1m1l6"/>
+</item>
+<item historyLabel="Wissen testen/call" index="1">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@Vam8ynkgn8wmojc9w3897::sd20_message|1|call|80(design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i):sd20_message_container@design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-yrgd8egn8wmojcuu2m0i"/>
+</item>
+<item historyLabel="Wissen testen/Kategorie bestimmen(Kategorie)" index="1">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@Vam8ynkgn8wmojc9w3897::label@label@sd20_message|1|call|81(design@node@@@l2gqtvgn8wo7ex-wy279z@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i):sd20_message|1|call|81(design@node@@@l2gqtvgn8wo7ex-wy279z@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i):sd20_message_container@design@node@@@l2gqtvgn8wo7ex-wy279z@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@l2gqtvgn8wo7ex-wy279z@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-yrgd8egn8wmojcuu2m0i"/>
+</item>
+<item historyLabel="Wissen testen/Wissen testen" index="1">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@Vam8ynkgn8wmojc9w3897::design@node@@@-yrgd8egn8wmojcuu2m0i"/>
+</item>
+<item historyLabel="Wissen testen/Zu erhöhende Kategorie bestimmen(Kategorie)" index="1">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@Vam8ynkgn8wmojc9w3897::label@label@sd20_message|1|call|80(design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i):sd20_message|1|call|80(design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i):sd20_message_container@design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@l2gqtvgn8y5lk9v39t5k@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-y8nsowgn8wnuext7cn4c@-yrgd8egn8wmojcuu2m0i:design@node@@@-yrgd8egn8wmojcuu2m0i"/>
+</item>
+<item historyLabel="Class Diagram1/null" index="0">
+<position/>
+</item>
+<item active="true" historyLabel="Class Diagram1/wählt aus" index="0">
+<position model_uin="model:project::Software-Engineering" uin="reference::design@view@@@V1hexuhgmotc03pmfjfp4::label@label@design@link@@@ieje0rgmovqi1u-fff7ej@-tdsqjugmotexpo-9lqw8f:design@link@@@ieje0rgmovqi1u-fff7ej@-tdsqjugmotexpo-9lqw8f:design@node@@@-tdsqjugmotexpo-9lqw8f"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1f6c90f"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@11269e5"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissen testen" tooltip="Wissen testen">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V-b8dyjigm50e65x-gg7a2i"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Class Diagram1" tooltip="Class Diagram1">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
+<persistable model="model:project::Software-Engineering" rc="design:view:::8qqttgn8whyu9-iy5upu"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten">
+<persistable model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissen testen" tooltip="Wissen testen">
+<persistable model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8wmojc9w3897"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Software-Engineering" tooltip="Software-Engineering">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V1hexuhgm4zdz0opq6p2s"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unbekannter Name (RO)" tooltip="Unbekannter Name (RO)">
+<persistable model="model:project::Software-Engineering" rc="design:view:::4yhe4gn8wef44fzbz5b"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unbekannter Name (RO)" tooltip="Unbekannter Name (RO)">
+<persistable model="model:project::Software-Engineering" rc="design:view:::Vam8ynkgn8w58jn-smpp6g"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unbekannter Name (RO)" tooltip="Unbekannter Name (RO)">
+<persistable model="model:project::Software-Engineering" rc="design:view:::4yhe4gn8wgfzo-pil3zh"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V-b8dyjigmeq2vs63hmuf3"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Iwwwdnw" tooltip="Iwwwdnw">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V-jr6xbagm4zfgi2-jm21l4"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unbekannter Name (RO)" tooltip="Unbekannter Name (RO)">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V-oyrl70gmotb9vugtsk4u"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissensstreiter ins Spiel bringen" tooltip="Wissensstreiter ins Spiel bringen">
+<persistable model="model:project::Software-Engineering" rc="design:view:::V-b8dyjigmeq2vs63hmuf3"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Wissen testen.txvActivityDiagram20" tooltip="C:\Users\grjo1012\Desktop\Wissen testen.txvActivityDiagram20">
+<persistable uri="file:/C:/Users/grjo1012/Desktop/Wissen%20testen.txvActivityDiagram20"/>
+</file>
+</mruList>
+</workbench>
