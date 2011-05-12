@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="d9m3ugnlrs4zysdr24l">
+		<property name="$metaclass" value="Class20"/>
+		<property name="$name" value="Wissensstreiter"/>
+		<node uin="b7ea0gnlrs4zylk927n">
+			<property name="$metaclass" value="DataType"/>
+			<property name="$name" value="Farbe"/>
+		</node>
+		<link uin="2uh5jgnlrs4zy-1yc99u">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<property name="label" value="steht auf"/>
+			<property name="clientCardinality" value="0-12"/>
+			<participant referencedUin="design:node:::d9m3ugnlrs4zysdr24l" role="Client"></participant>
+			<participant referencedUin="design:node:::-tdsqjugmothhku-gajbh0" role="Supplier"></participant>
+		</link>
+	</node>
+</nodeSet>

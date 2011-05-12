@@ -6,11 +6,11 @@
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<reference referencedUin="design:view:::V1hexuhgnlrljnhl4pizp">
-			<property name="bounds" value="5,5,80,60"/>
+			<property name="bounds" value="215,155,87,107"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::V1hexuhgnlrlpof-c2jmvr">
-			<property name="bounds" value="104,-4,80,60"/>
+			<property name="bounds" value="395,35,80,60"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

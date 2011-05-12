@@ -1178,10 +1178,6 @@
 			<participant referencedUin="design:node:::-tdsqjugmoth9a6-1u2j3j" role="Supplier"></participant>
 		</link>
 	</node>
-	<node uin="-tdsqjugmotm3g4exttdf">
-		<property name="$metaclass" value="Class20"/>
-		<property name="$name" value="Spielleiter"/>
-	</node>
 	<node uin="-yrgd8egn8w58nk-h9o0gk">
 		<property name="$metaclass" value="SD20_Interaction"/>
 		<property name="$name" value="Würfeln und Ziehen"/>
