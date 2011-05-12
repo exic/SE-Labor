@@ -1,0 +1,1 @@
+Es wurden alle Use-Cases abgesehen von den optionalen gewählt, da diese essentiell sind.
