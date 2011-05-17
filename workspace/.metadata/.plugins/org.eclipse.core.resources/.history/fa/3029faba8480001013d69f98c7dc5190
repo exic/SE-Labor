@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="8bho0jgnsuga2s-t2tu0u">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="Actor1"/>
+	</node>
+	<node uin="8krugmgnsugh99-wwxa74">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="Subject1"/>
+	</node>
+</nodeSet>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="8bho0jgnsuga2s-t2tu0u">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="ui"/>
+		<link uin="ieje0rgnsuif69dv7t8e">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jgnsuga2s-t2tu0u" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthgnsuh135f823dp:8krugmgnsugh99-wwxa74" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rgnsuihcol28zy">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jgnsuga2s-t2tu0u" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthgnsuh8nj-csiu3t:8krugmgnsugh99-wwxa74" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rgnsuik1k-ckwuuo">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jgnsuga2s-t2tu0u" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthgnsuhtzd49g1wt:8krugmgnsugh99-wwxa74" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8krugmgnsugh99-wwxa74">
+		<property name="$metaclass" value="UseCaseClassifier20"/>
+		<property name="$name" value="System"/>
+		<node uin="gj7tthgnsuh135f823dp">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Spiel starten und vorbereiten"/>
+		</node>
+		<node uin="gj7tthgnsuh8nj-csiu3t">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Würfeln und Ziehen"/>
+		</node>
+		<node uin="gj7tthgnsuhtzd49g1wt">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Wissen testen"/>
+		</node>
+	</node>
+	<node uin="8bho0jgnsuitsv-gurply">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="persistence"/>
+		<link uin="ieje0rgnsulfow4o6zge">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jgnsuitsv-gurply" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthgnsuhtzd49g1wt:8krugmgnsugh99-wwxa74" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="8bho0jgnsumo89uwud69">
+		<property name="$metaclass" value="Actor20"/>
+		<property name="$name" value="domain"/>
+	</node>
+</nodeSet>

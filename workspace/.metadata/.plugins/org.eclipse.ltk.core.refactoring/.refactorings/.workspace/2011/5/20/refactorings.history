@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Ressource &apos;Software-Engineering&apos; umbenennen in &apos;Analyse&apos;" description="Ressource &apos;Software-Engineering&apos; umbenennen" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Software-Engineering" name="Analyse" stamp="1305636703962" updateReferences="true"/>&#x0A;<refactoring comment="Ressource &apos;SE-Modellierung&apos; umbenennen in &apos;Modellierung&apos;" description="Ressource &apos;SE-Modellierung&apos; umbenennen" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SE-Modellierung" name="Modellierung" stamp="1305636728122" updateReferences="true"/>
+</session>

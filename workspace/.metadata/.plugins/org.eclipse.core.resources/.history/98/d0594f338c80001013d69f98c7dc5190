@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V-b8dyjignsw2tv6-75o95p">
+		<property name="$metaclass" value="ActivityDiagram20"/>
+		<property name="$name" value="Spiel starten und vorbereiten"/>
+		<reference referencedUin="design:node:::-46k66rgnsw3847-yirobw">
+			<property name="bounds" value="15,35,852,512"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="design:node:::a6k48rgnsw4qbd-m3oc8m:-46k66rgnsw3847-yirobw">
+				<property name="bounds" value="0,204,846,201"/>
+				<property name="location_set_by_user" value="true"/>
+				<property name="$orientation" value="horizontal"/>
+				<property name="bounds_setted_by_user" value="true"/>
+				<reference referencedUin="design:node:::88joqsgnswbiabpo5d00:-46k66rgnsw3847-yirobw">
+					<property name="bounds" value="22,77,15,15"/>
+					<property name="location_set_by_user" value="true"/>
+					<reference referencedUin="design:link:::ieje0rgnswcq9y-h3zwfm:88joqsgnswbiabpo5d00:-46k66rgnsw3847-yirobw">
+						<property name="sourceAnchor" value="75,347"/>
+						<property name="targetAnchor" value="100,347"/>
+						<property name="bendpoints" value=""/>
+					</reference>
+				</reference>
+				<reference referencedUin="design:node:::-qbjze4gnswcf8c-7zd5mc:-46k66rgnsw3847-yirobw">
+					<property name="bounds" value="62,70,223,30"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::a6k48rgnsw4gdxmpvmzt:-46k66rgnsw3847-yirobw">
+				<property name="bounds" value="0,44,846,141"/>
+				<property name="location_set_by_user" value="true"/>
+				<property name="$orientation" value="horizontal"/>
+				<property name="bounds_setted_by_user" value="true"/>
+				<reference referencedUin="design:node:::-qbjze4gnswcxat-5hx57w:-46k66rgnsw3847-yirobw">
+					<property name="bounds" value="182,37,207,30"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>

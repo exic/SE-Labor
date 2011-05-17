@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V-jr6xbagnsufxpq-9ertrd">
+		<property name="$metaclass" value="UseCaseDiagram20"/>
+		<property name="$name" value="System-Use-Cases"/>
+		<reference referencedUin="design:node:::8bho0jgnsuga2s-t2tu0u">
+			<property name="bounds" value="175,35,91,88"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="design:node:::8krugmgnsugh99-wwxa74">
+			<property name="bounds" value="315,15,381,481"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>
