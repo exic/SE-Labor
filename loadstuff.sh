@@ -1,7 +1,9 @@
 eval $(ssh-agent)
 ssh-add /pfad/zu/schluessel/id_rsa
 ssh git@github.com
-ssh login -L 4446:github.com:22
+
+# run this in background to get the tunnel
+ssh login -L 4446:github.com:22 -N
 
 # test ob login funktioniert
 ssh -p 4446 githubusername@localhost
