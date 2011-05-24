@@ -1,0 +1,4 @@
+private:
+  /**@link dependency
+   *@associates <{${targetName}}>*/
+  /*# int ${fieldName}; */

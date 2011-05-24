@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ApplyPatternDialog.BaseSettings">
+		<item key="shell-width" value="1000"/>
+		<item key="shell-height" value="675"/>
+	</section>
+</section>

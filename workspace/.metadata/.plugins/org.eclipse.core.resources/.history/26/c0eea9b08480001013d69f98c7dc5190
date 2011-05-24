@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<nodeSet  version="1.1">
-	<view uin="V-jr6xbagnsufxpq-9ertrd">
-		<property name="$metaclass" value="UseCaseDiagram20"/>
-		<property name="$name" value="System-Use-Cases"/>
-	</view>
-</nodeSet>

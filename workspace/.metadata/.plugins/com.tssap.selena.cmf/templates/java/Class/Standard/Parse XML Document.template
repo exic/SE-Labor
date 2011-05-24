@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Parse XML Document</b>
+
+Erstellt auf der Grundlage der javax.xml-API einen einfachen XML-Dokumentleser.
+]]>
+</description>
+<import>java.io.File</import>
+<import>java.io.InputStream</import>
+<import>java.io.IOException</import>
+<import>javax.xml.parsers.DocumentBuilder</import>
+<import>javax.xml.parsers.DocumentBuilderFactory</import>
+<import>javax.xml.parsers.ParserConfigurationException</import>
+<import>org.w3c.dom.Document</import>
+<import>org.xml.sax.SAXException</import>
+<field
+	name="documentBuilder"><![CDATA[
+/**
+ * Holds the document builder instance.
+ */
+private static DocumentBuilder	${fieldName};
+]]>
+</field>
+<method
+	name="getDocumentBuilder"><![CDATA[
+/**
+ * Returns an instance of <code>DocumentBuilder</code>.
+ */
+public static DocumentBuilder ${methodName}()
+{
+	if (documentBuilder == null) {
+		try {
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			documentBuilder = factory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			throw new IllegalStateException();
+		}
+	}
+	return documentBuilder;
+}
+]]>
+</method>
+<method
+	name="parse"><![CDATA[
+/**
+ * Parses the given input stream and returns the resulting
+ * <code>Document</code>.
+ *
+ * @param in	the input stream to parse.
+ */
+public Document ${methodName}(InputStream in) throws IOException
+{
+	try {
+		return getDocumentBuilder().parse(in);
+	} catch (SAXException e) {
+		throw new IOException(e.getMessage());
+	} finally {
+		in.close();
+	}
+}
+]]>
+</method>
+</template>

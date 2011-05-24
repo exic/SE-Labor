@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>MainMethod</b>
+
+Erstellt eine Standard-main-Methode.
+]]>
+</description>
+<method
+	name="main"><![CDATA[
+public static void main(String[] args) {
+}
+]]>
+</method>
+</template>

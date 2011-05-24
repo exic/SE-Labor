@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>JMS Queue</b>
+
+Ein Enterprise-Messagingsystem, auch als Message-Oriented Middleware (MOM)
+bezeichnet, ermöglicht Anwendungen über den Austausch von Nachrichten 
+miteinander zu kommunizieren. Eine Nachricht ist eine Anforderung, ein Bericht
+und/oder ein Ereignis, das die Informationen enthält, die für die Koordination
+der Kommunikation zwischen verschiedenen Anwendungen notwendig ist. Eine
+Nachricht bietet eine Abstraktionsebene, die die Trennung von Einzelheiten
+über das Zielsystem von dem Anwendungscode erlaubt.
+
+Klicken Sie für weitere Informationen bitte auf die Schaltfläche Hilfe.
+]]>
+</description>
+<help>com.togethersoft.togetherxj.doc.user.jms_queue_help</help>
+<property
+	label="QueueName"
+	name="QueueName"
+	type="SimpleTypeName"
+	value="QueueName"/>
+<property
+	label="Message"
+	name="Message"
+	type="String"
+	value="The TextMessage"/>
+<unit
+	name="${QueueName}"
+	package=""><![CDATA[
+import javax.jms.*;
+import javax.naming.*;
+public class ${QueueName} {
+	private InitialContext getInitialContext()throws NamingException{
+		return new InitialContext();
+	}
+
+	private QueueConnectionFactory lookupQueueConnectionFactory(InitialContext ctx, String factoryName)throws NamingException{
+		return (QueueConnectionFactory)ctx.lookup(factoryName);
+	}
+
+	private Queue lookupQueue(InitialContext ctx, String strName)throws NamingException{
+		return (Queue)ctx.lookup(strName);
+	}
+
+	private QueueConnection createQueueConnection(QueueConnectionFactory connectionFactory)throws JMSException{
+		return connectionFactory.createQueueConnection();
+	}
+
+	private QueueSession createQueueSession(QueueConnection connection)throws JMSException{
+		return connection.createQueueSession(false, Session.AUTO_ACKNOWLEDGE);
+	}
+
+	private QueueSender createQueueSender(QueueSession session,Queue queue)throws JMSException{
+		return session.createSender(queue);
+	}
+
+	private void sendTextMessage(QueueSession session,QueueSender sender, String message)throws JMSException{
+		TextMessage textMessage = session.createTextMessage();
+		textMessage.setText(message);
+		sender.send(textMessage);
+	}
+
+	public static void main(String[] args){
+		${QueueName} client = new ${QueueName}();
+		InitialContext ctx = null;
+		QueueConnectionFactory factory = null;
+		Queue queue = null;
+		QueueConnection connection = null;
+		QueueSession session = null;
+		QueueReceiver receiver = null;
+		Message message = null;
+		try {
+			ctx = client.getInitialContext();
+			factory = client.lookupQueueConnectionFactory(ctx, connectionFactory);
+			queue = client.lookupQueue(ctx, queueName);
+		} catch (NamingException e) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+		try {
+			connection = client.createQueueConnection(factory);
+			connection.start();
+			session = client.createQueueSession(connection);
+			receiver = client.createQueueReceiver(session, queue);
+			message = receiver.receive();
+			System.out.println(((TextMessage)message).getText());
+		} catch (JMSException e) {
+			e.printStackTrace();
+		} finally {
+			if (connection != null) {
+				try {
+					connection.close();
+				} catch (JMSException e) { }
+			}
+		}
+	}
+
+	private QueueReceiver createQueueReceiver(QueueSession session,Queue queue)throws JMSException{
+		return session.createReceiver(queue);
+	}
+
+	private final static String message = "${Message}";
+	private final static String queueName = "${QueueName}";
+	private final static String connectionFactory = "QueueConnectionFactory";
+
+	/**
+	 * @link
+	 * @shapeType PatternLink
+	 * @pattern JMS Queue
+	 * @supplierRole JMS Queue Link
+	 */
+	/*# private ${QueueName} _queueName; */
+
+	/**
+	 * @link
+	 * @shapeType PatternLink
+	 * @pattern JMS Queue
+	 * @supplierRole JMSQueueReceiverLink
+	 * @hidden
+	 */
+	/*# private ${QueueName} _queueName1; */
+}
+]]>
+</unit>
+</template>

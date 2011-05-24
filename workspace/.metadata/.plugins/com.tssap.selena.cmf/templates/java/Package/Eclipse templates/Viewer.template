@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Viewer</b>
+
+Erstellt eine neue Klasse, die die Eclipse-Klasse Viewer erweitert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="Viewer1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.jface.viewers.Viewer;
+
+/**
+ * Viewer.
+ */
+public class ${className} extends Viewer {
+}
+]]>
+</unit>
+</template>

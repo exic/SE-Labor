@@ -1,0 +1,7 @@
+/**
+ * @link aggregation
+ * @associates $targetName
+ * @directed directed
+ * @supplierCardinality 0..*
+ */
+java.util.AbstractMap ${fieldName} = null;

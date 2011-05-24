@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Operator "Not equal"</b>
+
+Erstellt eine passende Implementierung des Standardoperators "!=".
+]]>
+</description>
+<method
+	name="operator Not Equal"><![CDATA[
+public:
+    bool operator!=(const ${className}& X) const;
+]]>
+</method>
+</template>

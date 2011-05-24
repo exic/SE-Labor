@@ -1,5 +1,5 @@
 #
-#Tue May 17 17:18:12 CEST 2011
+#Tue May 24 16:48:32 CEST 2011
 common.codegeneration.defaultfileextension_definition=cpp
 common.parser.sourceextensions.@property_type=3
 cpp.project.enable_wchar_t.@property_name=wchar_t als Schl\u00FCsselwort unterst\u00FCtzen

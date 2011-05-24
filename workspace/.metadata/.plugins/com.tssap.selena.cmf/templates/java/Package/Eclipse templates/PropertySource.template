@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>PropertySource</b>
+
+Erstellt eine neue Klasse, die das Eclipse-Interface IPropertySource implementiert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="PropertySource1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.ui.views.properties.IPropertySource;
+
+/**
+ * PropertySource.
+ */
+public class ${className} implements IPropertySource {
+}
+]]>
+</unit>
+</template>

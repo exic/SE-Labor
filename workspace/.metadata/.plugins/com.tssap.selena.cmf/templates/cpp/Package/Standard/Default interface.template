@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Default Interface</b>
+
+Dieses Pattern erstellt das Standard-Interface für Ihre Anwendung.
+
+Parameter
+
+<b>interfaceName</b>
+  Name des erzeugten Interface
+]]>
+</description>
+<property
+	label="interfaceName"
+	name="interfaceName"
+	type="SimpleTypeName"
+	value="Interface1"/>
+<type
+	name="${interfaceName}"><![CDATA[
+/** @interface */
+class ${interfaceName} {
+};
+]]>
+</type>
+</template>

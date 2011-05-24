@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die javax.servlet.ServletContextListener implementiert,
+mit dessen Hilfe die Klasse auf Kontexterstellungs- und Abschaltereignisse des
+Servlet reagieren kann.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyServletContextListener"/>
+<property
+	label="generatePrologueEpilogue"
+	name="generatePrologueEpilogue"
+	type="Boolean"
+	value="true"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+public class ${className} implements ServletContextListener
+{
+	public ${className}() {
+	}
+
+	public void contextInitialized(ServletContextEvent event) {
+	}
+
+	public void contextDestroyed(ServletContextEvent event) {
+	}
+}
+]]>
+</unit>
+</template>

@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<template>
+<java_version>1.5</java_version>
+<description><![CDATA[
+<b>Template Interface</b>
+
+Erstellt ein neues (generisches) Schablonen-Interfeace.
+
+Parameter 
+
+<b>typeParameters</b>
+  Schablonen-Typparameter wie in der Quelltextdatei.
+]]>
+</description>
+<property
+	label="interfaceName"
+	name="interfaceName"
+	type="SimpleTypeName"
+	value="MyInterface"/>
+<property
+	label="typeParameters"
+	name="parameters"
+	type="String"
+	value="T"/>
+<unit
+	name="${interfaceName}"
+	package=""><![CDATA[
+/**
+ * ${interfaceName} interface.
+ */
+public interface ${interfaceName}<${parameters}>
+{
+}
+]]>
+</unit>
+</template>

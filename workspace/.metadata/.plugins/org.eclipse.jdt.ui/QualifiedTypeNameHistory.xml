@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="src.domain.core.I_Spiel_vorbereiten_und_Starten"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="src.domain.question.Kategorie"/>
+<fullyQualifiedTypeName name="src.domain.core.IWuerfelnUndZiehen"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<template>
+<java_version>1.5</java_version>
+<description><![CDATA[
+<b>Template Class</b>
+
+Erstellt eine neue (generische) Schablonen-Klasse.
+
+Parameter
+
+<b>init</b>
+  Erzeugt eine Konstruktormethode.
+
+
+<b>typeParameters</b>
+  Schablonen-Typparameter wie in der Quelltextdatei.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyClass"/>
+<property
+	label="init"
+	name="init"
+	type="Boolean"
+	value="true"/>
+<property
+	label="typeParameters"
+	name="parameters"
+	type="String"
+	value="T"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+/**
+ * ${className} class.
+ */
+public class ${className}<${parameters}>
+{
+#if( $init )
+	public ${className}()
+	{
+	}
+#end
+}
+]]>
+</unit>
+</template>

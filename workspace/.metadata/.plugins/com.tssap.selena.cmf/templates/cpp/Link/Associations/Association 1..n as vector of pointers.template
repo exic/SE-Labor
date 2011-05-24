@@ -1,0 +1,3 @@
+private:
+   /**@supplierCardinality 1..n */
+   vector<${targetName}*> ${fieldName};

@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>ViewPart</b>
+
+Erstellt eine neue Klasse, die das Eclipse-Interface IViewPart implementiert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="ViewPart1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.ui.IViewPart;
+
+/**
+ * ViewPart.
+ */
+public class ${className} implements IViewPart {
+}
+]]>
+</unit>
+</template>

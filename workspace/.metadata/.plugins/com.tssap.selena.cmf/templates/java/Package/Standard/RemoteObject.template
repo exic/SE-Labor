@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Remote Object</b>
+
+Erstellt eine neue Klasse, die RemoteObject erweitert.
+]]>
+</description>
+<property
+	name="className"
+	type="SimpleTypeName"
+	value="MyRemoteObject"/>
+<unit
+	name="${className}"><![CDATA[
+import java.rmi.server.RemoteObject;
+/**
+ * Represents a remote object.
+ */
+public class ${className} extends RemoteObject {
+}
+]]>
+</unit>
+</template>

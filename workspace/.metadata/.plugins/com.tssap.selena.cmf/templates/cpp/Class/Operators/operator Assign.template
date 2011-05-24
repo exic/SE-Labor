@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Operator "Assign"</b>
+
+Erstellt eine passende Implementierung des Standardoperators "=".
+]]>
+</description>
+<method
+	name="operator Assign"><![CDATA[
+public:
+    ${className}& operator=(const ${className}& X);
+]]>
+</method>
+</template>

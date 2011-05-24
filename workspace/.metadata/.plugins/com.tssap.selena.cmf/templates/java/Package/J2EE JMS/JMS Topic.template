@@ -1,0 +1,182 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>JMS Topic</b>
+
+Ein Enterprise-Messagingsystem, auch als Message-Oriented Middleware (MOM)
+bezeichnet, ermöglicht Anwendungen über den Austausch von Nachrichten 
+miteinander zu kommunizieren. Eine Nachricht ist eine Anforderung, ein Bericht
+und/oder ein Ereignis, das die Informationen enthält, die für die Koordination
+der Kommunikation zwischen verschiedenen Anwendungen notwendig ist. Eine
+Nachricht bietet eine Abstraktionsebene, die die Trennung von Einzelheiten
+über das Zielsystem von dem Anwendungscode erlaubt.
+
+Klicken Sie für weitere Informationen bitte auf die Schaltfläche Hilfe.
+
+]]>
+</description>
+<help>com.togethersoft.togetherxj.doc.user.jms_topic_help</help>
+<property
+	label="TopicName"
+	name="TopicName"
+	type="SimpleTypeName"
+	value="TopicName"/>
+<property
+	label="MessageListener"
+	name="MessageListener"
+	type="SimpleTypeName"
+	value="MyMessageListener"/>
+<property
+	label="Message"
+	name="Message"
+	type="String"
+	value="The TextMessage"/>
+<unit
+	name="${TopicName}"
+	package=""><![CDATA[
+import javax.jms.*;
+import javax.naming.*;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class ${TopicName} {
+	private InitialContext getInitialContext() throws NamingException {
+		return new InitialContext();
+	}
+
+	private TopicConnectionFactory lookupTopicConnectionFactory(InitialContext ctx, String factoryName)
+	    throws NamingException {
+		    return (TopicConnectionFactory)ctx.lookup(factoryName);
+	}
+
+	private Topic lookupTopic(InitialContext ctx, String strName) throws NamingException {
+		return (Topic)ctx.lookup(strName);
+	}
+
+	private TopicConnection createTopicConnection(TopicConnectionFactory connectionFactory) throws JMSException {
+		return connectionFactory.createTopicConnection();
+	}
+
+	private TopicSession createTopicSession(TopicConnection connection) throws JMSException {
+		return connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
+	}
+
+	private TopicPublisher createTopicPublisher(TopicSession session, Topic topic) throws JMSException {
+		return session.createPublisher(topic);
+	}
+
+	private void sendTextMessage(TopicSession session, TopicPublisher publisher, String message) throws JMSException {
+		TextMessage textMessage = session.createTextMessage();
+		textMessage.setText(message);
+		publisher.publish(textMessage);
+	}
+
+	public static void main(String[] args) {
+		${TopicName} client = new ${TopicName}();
+		InitialContext ctx = null;
+		TopicConnectionFactory factory = null;
+		Topic topic = null;
+		TopicConnection connection = null;
+		TopicSession session = null;
+		TopicSubscriber subscriber = null;
+		try {
+			ctx = client.getInitialContext();
+			factory = client.lookupTopicConnectionFactory(ctx, connectionFactory);
+			topic = client.lookupTopic(ctx, topicName);
+		} catch (NamingException e) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+		try {
+			connection = client.createTopicConnection(factory);
+			session = client.createTopicSession(connection);
+			subscriber = client.createTopicSubscriber(session, topic);
+			subscriber.setMessageListener(new ${MessageListener}());
+			connection.start();
+			System.out.println("To end program, enter Q or q, then <return>");
+			InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+			char answer = '\0';
+			while (!((answer == 'q') || (answer == 'Q'))) {
+				try {
+					answer = (char)inputStreamReader.read();
+				} catch (IOException e) {
+					System.out.println("I/O exception: " + e.toString());
+				}
+			}
+		} catch (JMSException e) {
+			e.printStackTrace();
+		} finally {
+			if (connection != null) {
+				try {
+					connection.close();
+				} catch (JMSException e) { }
+			}
+		}
+
+	}
+
+	private TopicSubscriber createTopicSubscriber(TopicSession session, Topic topic) throws JMSException {
+		return session.createSubscriber(topic);
+	}
+
+	private final static String message = "${Message}";
+	private final static String topicName = "${TopicName}";
+	private final static String connectionFactory = "TopicConnectionFactory";
+
+	/**
+	 * @link
+	 * @shapeType PatternLink
+	 * @pattern JMS Topic
+	 * @supplierRole JMSTopicListenerLink
+	 * @hidden
+	 */
+
+	/*# private ${MessageListener} _myMessageListener; */
+
+	/**
+	 * @link
+	 * @shapeType PatternLink
+	 * @pattern JMS Topic
+	 * @supplierRole JMS Topic Link
+	 */
+
+	/*# private ${TopicName} _topicName; */
+
+	/**
+	 * @link
+	 * @shapeType PatternLink
+	 * @pattern JMS Topic
+	 * @supplierRole JMSTopicReceiverLink
+	 * @hidden
+	 */
+
+	/*# private ${TopicName} _topicName1; */
+}
+]]>
+</unit>
+<unit
+	name="${MessageListener}"
+	package=""><![CDATA[
+import javax.jms.*;
+
+public class ${MessageListener} implements MessageListener {
+	public void onMessage(Message message) {
+		//
+		// Write operations with the message here.
+		//
+		try {
+			String msgText;
+			if (message instanceof TextMessage) {
+				msgText = ((TextMessage)message).getText();
+			} else {
+				msgText = message.toString();
+			}
+			System.out.println(msgText);
+		} catch (JMSException jmse) {
+			jmse.printStackTrace();
+		}
+	}
+}
+]]>
+</unit>
+</template>

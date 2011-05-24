@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die javax.resource.spi.ManagedConnectionFactory
+implementiert. Die Klasse ManagedConnectionFactory kann die Klasse
+ManagedConnection und EIS-spezifische Verbindungsgeneratoren enthalten.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyManagedConnectionFactory"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import java.io.PrintWriter;
+
+import javax.resource.spi.ManagedConnectionFactory;
+import javax.resource.spi.ManagedConnection;
+import javax.resource.spi.ConnectionManager;
+import javax.resource.spi.ConnectionRequestInfo;
+
+import javax.resource.ResourceException;
+import javax.security.auth.Subject;
+
+public class ${className} implements ManagedConnectionFactory
+{
+	/**
+	 * Creates a Connection Factory instance.
+	 */
+	public Object createConnectionFactory() throws ResourceException
+	{
+		return null;
+	}
+
+	/**
+	 * Creates a Connection Factory instance.
+	 * The Connection Factory instance gets initialized with the passed ConnectionManager.
+	 */
+	public Object createConnectionFactory(ConnectionManager cxManager) throws ResourceException
+	{
+		return null;
+	}
+
+	/**
+	 * Creates a new physical connection to the underlying EIS resource manager,
+	 */
+	public ManagedConnection createManagedConnection(Subject subject, ConnectionRequestInfo cxRequestInfo) throws ResourceException
+	{
+		return null;
+	}
+
+	/**
+	 * Check if this ManagedConnectionFactory is equal to another ManagedConnectionFactory.
+	 */
+	public boolean equals(Object other)
+	{
+		return false;
+	}
+
+	/**
+	 * Get the log writer for this ManagedConnectionFactory instance.
+	 */
+	public PrintWriter getLogWriter() throws ResourceException
+	{
+		return null;
+	}
+
+	/**
+	 * Returns the hash code for the ManagedConnectionFactory
+	 */
+	public int hashCode()
+	{
+		return 0;
+	}
+
+	/**
+	 * Returns a matched connection from the candidate set of connections.
+	 */
+	public ManagedConnection matchManagedConnections(java.util.Set connectionSet, Subject subject, ConnectionRequestInfo cxRequestInfo)
+		throws ResourceException
+	{
+		return null;
+	}
+
+	/**
+	 * Set the log writer for this ManagedConnectionFactory instance.
+	 */
+	public void setLogWriter(PrintWriter out) throws ResourceException
+	{
+	}
+}
+]]>
+</unit>
+</template>

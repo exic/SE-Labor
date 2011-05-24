@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>String Representation</b>
+
+Erstellt eine passende Implementierung der Standardmethode Object#toString().
+]]>
+</description>
+<method
+	name="toString"><![CDATA[
+/**
+ * @see	Object#toString()
+ */
+public String ${methodName}()
+{
+	return "<${className} id=" + Integer.toHexString(hashCode()) +
+		//" name=" + value +
+		"/>";
+}
+]]>
+</method>
+</template>

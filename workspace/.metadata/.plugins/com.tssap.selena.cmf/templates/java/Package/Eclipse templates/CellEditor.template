@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>CellEditor</b>
+
+Erstellt eine neue Klasse, die die Eclipse-Klasse CellEditor erweitert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="CellEditor1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.jface.viewers.CellEditor;
+
+/**
+ * CellEditor.
+ */
+public class ${className} extends CellEditor {
+}
+]]>
+</unit>
+</template>

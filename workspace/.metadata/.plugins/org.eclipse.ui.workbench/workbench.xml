@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="149" version="2.0">
+<workbench progressCount="137" version="2.0">
 <workbenchAdvisor/>
-<window height="984" maximized="true" width="945" x="-4" y="0">
+<window height="860" maximized="true" width="800" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -11,14 +11,16 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="213" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -29,36 +31,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.borland.tg.gde.diagramEditor" name="Iwwwdnw" partName="Iwwwdnw" title="Iwwwdnw" tooltip="Iwwwdnw" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Analyse" rc="design:view:::V-jr6xbagm4zfgi2-jm21l4"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="System-Use-Cases" partName="System-Use-Cases" title="System-Use-Cases" tooltip="System-Use-Cases" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Class Diagram1" partName="Class Diagram1" title="Class Diagram1" tooltip="Class Diagram1" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Analyse" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Würfeln" partName="Würfeln" title="Würfeln" tooltip="Würfeln" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Analyse" rc="design:view:::V-b8dyjigmeq2vs63hmuf3"/>
-</editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" partName="Würfeln und Ziehen" title="Würfeln und Ziehen" tooltip="Würfeln und Ziehen" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V-b8dyjignswsxrrt7zuti"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" partName="Spiel starten und vorbereiten" title="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Analyse" rc="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" partName="Würfeln und Ziehen" title="Würfeln und Ziehen" tooltip="Würfeln und Ziehen" workbook="DefaultEditorWorkbook">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Analyse" rc="design:view:::8qqttgn8whyu9-iy5upu"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WuerfelnUndZiehenHandler.java" partName="WuerfelnUndZiehenHandler.java" path="C:/Users/sylvain/workspace/LaborSwE/Labor-SE/workspace/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" title="WuerfelnUndZiehenHandler.java" tooltip="Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java"/>
+<editorState selectionLength="0" selectionOffset="221"/>
 </editor>
 </editors>
 <views>
@@ -74,9 +53,14 @@
 <element element="model:project::Analyse" model="model:project::Analyse"/>
 <element element="model:project::Modellierung" model="model:project::Modellierung"/>
 <element element="design:view:::V1hexuhgnlrkidjlh8bc5" model="model:project::Modellierung"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlrkidjlh8bc5::design@view@@@V1hexuhgnlrljnhl4pizp" referencedEntity="design:view:::V1hexuhgnlrljnhl4pizp"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlrljnhl4pizp::design@view@@@V1hexuhgnlsaeoh5vutnx" referencedEntity="design:view:::V1hexuhgnlsaeoh5vutnx"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlsaeoh5vutnx::design@view@@@ba9i2gnlsan97ydk42k" referencedEntity="design:view:::ba9i2gnlsan97ydk42k"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@ba9i2gnlsan97ydk42k::jdt@e_class@src@src.domain.core.SpielVorbereitenUndStartenHandler" referencedEntity="jdt:e_class:src:src.domain.core.SpielVorbereitenUndStartenHandler"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@ba9i2gnlsan97ydk42k::jdt@e_method@src@src.domain.core.SpielVorbereitenUndStartenHandler.starteSpiel@starteSpiel~I~I:jdt@e_class@src@src.domain.core.SpielVorbereitenUndStartenHandler" referencedEntity="jdt:e_method:src:src.domain.core.SpielVorbereitenUndStartenHandler.starteSpiel:starteSpiel~I~I"/>
 </expanded>
 <selection>
-<element element="design:view:::8qqttgn8whyu9-iy5upu" model="model:project::Analyse"/>
+<element element="design:view:::V-b8dyjigo2q9km2-kfwpnu" model="model:project::Modellierung"/>
 </selection>
 </viewState>
 </view>
@@ -91,7 +75,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.togethersoft.togetherxj.uml.perspective.ModelingPerspective" id="com.togethersoft.selena.perspective.uml" label="Modellierung"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -167,8 +151,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19638649" ratioLeft="250" ratioRight="1023" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11269e5" ratio="0.6692427" ratioLeft="433" ratioRight="214" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.28760228" ratioLeft="457" ratioRight="1132" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11269e5" ratio="0.65824467" ratioLeft="495" ratioRight="257" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="com.borland.selena.modelmarker.modelbookmarks.view" label="Lesezeichen für Modell"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Eigenschaften"/>
@@ -186,159 +170,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjignswsxrrt7zuti"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Analyse" rc="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Analyse" rc="design:view:::8qqttgn8whyu9-iy5upu"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjignsw2tv6-75o95p"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2pg9vv-wt3e21"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2u5tnyjo709y"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java"/>
 </editors>
-<item historyLabel="Würfeln und Ziehen/[Zahl = 6]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsxgl1k6e07h@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsxgl1k6e07h@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode22] -&gt; [Auf Eingabe warten]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qmnbomhf2hx@l7v8cgo2qksrh-wjtet7@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qksrh-wjtet7@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spielsystem" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/DecisionNode20" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="3">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjignsw2tv6-75o95p"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Zusammenfassungsknoten]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@sbhn20gnsygsmv-ly2boj@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten(bis)" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsx6ni1mvcwls@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsx6ni1mvcwls@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/DecisionNode20" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten(bis)" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@ieje0rgnsyh34nmto0mb@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Aktion]" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-qbjze4go2q3hu5-6et8hf@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phbdw-89ded0@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Zahl = 6]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsxgl1k6e07h@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsxgl1k6e07h@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Controller" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@a6k48rgo2phbdw-89ded0@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spieler der beginnen darf wird ausgewählt" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Zusammenfassungsknoten]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@sbhn20gnsygsmv-ly2boj@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [Spieler der beginnen darf wird ausgewählt] -&gt; [Beginner und Reihenfolge der Spieler merken]]" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@link@@@jdhzmgo2xyha7lqfsds@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/DecisionNode23" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [Spieler der beginnen darf wird ausgewählt] -&gt; [Beginner und Reihenfolge der Spieler merken]]" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@link@@@jdhzmgo2xyha7lqfsds@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode23]]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@ieje0rgnsyi0j9wa58cn@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsx6ni1mvcwls@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsx6ni1mvcwls@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="3">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjignsw2tv6-75o95p"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@ieje0rgnsx6ni1mvcwls@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="5">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[kein WS auf dem Spielfeld, Anzahl Versuche &lt;3, Enter drücken]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Würfeln und Ziehen" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsxoqtr-t9lz8m@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsxoqtr-t9lz8m@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="5">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@ieje0rgnsxoqtr-t9lz8m@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Würfeln und Ziehen" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Mind. 2 Wissensstreiter auf dem Spielfeld]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@cpkmagnsyitoq-n9psne@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@cpkmagnsyitoq-n9psne@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="5">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Lifeline2" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-y8nsowgo2u6r6r7nraxy@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@ieje0rgnsy9tmw5bwnjl@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsx5jg4s2kya2@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Anzahl Versuche = 3" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@bepomgnsyj99d-lny0ck@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@bepomgnsyj99d-lny0ck@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Lifeline2" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-y8nsowgo2u6r6r7nraxy@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf: [DecisionNode23] -&gt; [MergeNode21]]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@bepomgnsyj99d-lny0ck@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Beschriftung]" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::label@label@sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf: [DecisionNode23] -&gt; [Aufforderung Wissensstreiter wählen]]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@cpkmagnsyitoq-n9psne@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Mind. 2 Wissensstreiter auf dem Spielfeld]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@cpkmagnsyitoq-n9psne@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@cpkmagnsyitoq-n9psne@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|80(design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Spiel starten und vorbereiten" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[noch nicht alle WS auf dem Spielfeld]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@czt9wgnsxfhsflia09y@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@link@@@czt9wgnsxfhsflia09y@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Würfeln und Ziehen" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[noch nicht alle WS auf dem Spielfeld]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@czt9wgnsxfhsflia09y@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@link@@@czt9wgnsxfhsflia09y@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Lifeline2" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::design@node@@@-y8nsowgo2uifqr-r9i62d@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[schon alle WS auf dem Spielfeld]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@ieje0rgnsxms2ss41str@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@link@@@ieje0rgnsxms2ss41str@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsxfczij75c9k@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Beschriftung]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[kein WS auf dem Spielfeld, Anzahl Versuche &lt;3, Enter drücken]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Beschriftung]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Würfeln und Ziehen" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[kein WS auf dem Spielfeld, Anzahl Versuche &lt;3, Enter drücken]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Beschriftung]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[kein WS auf dem Spielfeld, Anzahl Versuche &lt;3, Enter drücken]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/call" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/DecisionNode23" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[kein WS auf dem Spielfeld, Anzahl Versuche &lt;3, Enter drücken]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/System-Use-Cases" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Kontrollablauf: [DecisionNode23] -&gt; [Zufallzahl generieren]]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@link@@@4ggnugnsyibsce555po@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@l7v8cgnsyhx0r-w19oa@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Würfeln und ziehen (bis)" index="2">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::label@label@design@link@@@88yn6gnsyn26vxqjnzc@-qbjze4gnsx4gg7-ir3v5m@-46k66rgnswtayudn665u:design@link@@@88yn6gnsyn26vxqjnzc@-qbjze4gnsx4gg7-ir3v5m@-46k66rgnswtayudn665u:design@node@@@-qbjze4gnsx4gg7-ir3v5m@-46k66rgnswtayudn665u:design@node@@@a6k48rgnswufhb-dwjd93@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/[Aktion]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@-qbjze4go2r8l25-2qftyu@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Controller" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjignswsxrrt7zuti::design@node@@@a6k48rgnswujzr-iyx2g7@-46k66rgnswtayudn665u:design@node@@@-46k66rgnswtayudn665u"/>
+<item historyLabel="/Controller" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Spiel starten und vorbereiten/Spiel starten und vorbereiten" index="1">
-<position model_uin="model:project::Analyse" uin="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
+<item historyLabel="/Spielerwechsel" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@bko2ugo2yfi9qucyv7s@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Würfeln und Ziehen" index="2">
-<position model_uin="model:project::Analyse" uin="design:view:::8qqttgn8whyu9-iy5upu"/>
+<item historyLabel="/[Aktivitätsendknoten]" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@-5vj00pgo2rbfcd-ovdfup@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Würfelaktion starten()" index="2">
-<position model_uin="model:project::Analyse" uin="reference::design@view@@@8qqttgn8whyu9-iy5upu::label@label@sd20_message|1|call|81(design@node@@@l2gqtvgn8w74ib7ibzu0@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk):sd20_message|1|call|81(design@node@@@l2gqtvgn8w74ib7ibzu0@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk):sd20_message_container@design@node@@@l2gqtvgn8w74ib7ibzu0@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@l2gqtvgn8w74ib7ibzu0@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@-yrgd8egn8w58nk-h9o0gk"/>
+<item historyLabel="/Controller" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Wissensstreiter auswählen(Wissensstreiter)" index="2">
-<position model_uin="model:project::Analyse" uin="reference::design@view@@@8qqttgn8whyu9-iy5upu::label@label@sd20_message|1|call|81(design@node@@@l2gqtvgn8wb63d3bhapx@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk):sd20_message|1|call|81(design@node@@@l2gqtvgn8wb63d3bhapx@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk):sd20_message_container@design@node@@@l2gqtvgn8wb63d3bhapx@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@l2gqtvgn8wb63d3bhapx@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@-y8nsowgn8w682wpcsiop@-yrgd8egn8w58nk-h9o0gk:design@node@@@-yrgd8egn8w58nk-h9o0gk"/>
+<item historyLabel="/ActivityFinalNode20" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@hl4qvgo2yfkig1rxvmm@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Würfeln und Ziehen/Würfeln und Ziehen" index="2">
-<position model_uin="model:project::Analyse" uin="reference::design@view@@@8qqttgn8whyu9-iy5upu::design@node@@@-yrgd8egn8w58nk-h9o0gk"/>
+<item historyLabel="/Spielsystem" index="2">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
 </item>
-<item historyLabel="Spiel starten und vorbereiten/Spiel starten und vorbereiten" index="1">
-<position model_uin="model:project::Analyse" uin="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
+<item historyLabel="/System-Use-Cases" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
 </item>
-<item active="true" historyLabel="Würfeln und Ziehen/null" index="0">
-<position/>
+<item active="true" historyLabel="WuerfelnUndZiehenHandler.java" index="6">
+<position info="not_deleted" x="221" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -346,8 +334,10 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="128">
+<trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
@@ -359,50 +349,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und ziehen (bis)" tooltip="Würfeln und ziehen (bis)">
+<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
+</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
-<persistable model="model:project::Analyse" rc="design:view:::8qqttgn8whyu9-iy5upu"/>
+<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten">
-<persistable model="model:project::Analyse" rc="design:view:::Vam8ynkgn8wjb2m3b6vbo"/>
+<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2u5tnyjo709y"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
-<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjignswsxrrt7zuti"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln" tooltip="Würfeln">
-<persistable model="model:project::Analyse" rc="design:view:::V-b8dyjigmeq2vs63hmuf3"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
+<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2pg9vv-wt3e21"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten">
 <persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjignsw2tv6-75o95p"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Wissen testen" tooltip="Wissen testen">
-<persistable model="model:project::Analyse" rc="design:view:::V-b8dyjigm50e65x-gg7a2i"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Class Diagram1" tooltip="Class Diagram1">
-<persistable model="model:project::Analyse" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
-</file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="System-Use-Cases" tooltip="System-Use-Cases">
 <persistable model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Iwwwdnw" tooltip="Iwwwdnw">
-<persistable model="model:project::Analyse" rc="design:view:::V-jr6xbagm4zfgi2-jm21l4"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wissenesstreiter.java" tooltip="Modellierung/src/src/domain/figure/Wissenesstreiter.java">
+<persistable path="/Modellierung/src/src/domain/figure/Wissenesstreiter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IWuerfelnUndZiehen.java" tooltip="Modellierung/src/src/domain/core/IWuerfelnUndZiehen.java">
+<persistable path="/Modellierung/src/src/domain/core/IWuerfelnUndZiehen.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WuerfelnUndZiehenHandler.java" tooltip="Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java">
+<persistable path="/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpielVorbereitenUndStartenHandler.java" tooltip="Modellierung/src/src/domain/core/SpielVorbereitenUndStartenHandler.java">
+<persistable path="/Modellierung/src/src/domain/core/SpielVorbereitenUndStartenHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ISpielVorbereitenUndStarten.java" tooltip="Modellierung/src/src/domain/core/ISpielVorbereitenUndStarten.java">
+<persistable path="/Modellierung/src/src/domain/core/ISpielVorbereitenUndStarten.java"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="core" tooltip="core">
-<persistable model="model:project::SE-Modellierung" rc="design:view:::ba9i2gnlsan97ydk42k"/>
+<persistable model="model:project::Modellierung" rc="design:view:::ba9i2gnlsan97ydk42k"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="domain" tooltip="domain">
-<persistable model="model:project::SE-Modellierung" rc="design:view:::V1hexuhgnlsaeoh5vutnx"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Kategorie.java" tooltip="Modellierung/src/src/domain/question/Kategorie.java">
+<persistable path="/Modellierung/src/src/domain/question/Kategorie.java"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="src" tooltip="src">
-<persistable model="model:project::SE-Modellierung" rc="design:view:::V1hexuhgnlrljnhl4pizp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="I_Spiel_vorbereiten_und_Starten.java" tooltip="Modellierung/src/src/domain/core/I_Spiel_vorbereiten_und_Starten.java">
+<persistable path="/Modellierung/src/src/domain/core/I_Spiel_vorbereiten_und_Starten.java"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Software-Engineering" tooltip="Software-Engineering">
-<persistable model="model:project::Software-Engineering" rc="design:view:::V1hexuhgm4zdz0opq6p2s"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="SE-Modellierung" tooltip="SE-Modellierung">
-<persistable model="model:project::SE-Modellierung" rc="design:view:::V1hexuhgnlrkidjlh8bc5"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Unbekannter Name (RO)" tooltip="Unbekannter Name (RO)">
-<persistable model="model:project::Software-Engineering" rc="design:view:::4yhe4gn8wef44fzbz5b"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spiel_vorbereiten_und_Starten_Handler.java" tooltip="Modellierung/src/src/domain/core/Spiel_vorbereiten_und_Starten_Handler.java">
+<persistable path="/Modellierung/src/src/domain/core/Spiel_vorbereiten_und_Starten_Handler.java"/>
 </file>
 </mruList>
 </workbench>

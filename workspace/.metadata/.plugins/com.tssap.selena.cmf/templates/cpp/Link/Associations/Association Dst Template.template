@@ -1,0 +1,6 @@
+private:
+  /** 
+   * @associates <{${targetName}}> 
+   * @link association 
+   */
+  /*# int ${fieldName}; */

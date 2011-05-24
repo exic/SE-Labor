@@ -614,3 +614,629 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2011-05-24 12:21:54.750 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product -data C:\Users\sylvain\workspace\LaborSwE\Labor-SE\workspace -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.737
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.741
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.745
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.749
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.757
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.767
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.773
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.808
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.818
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.825
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.831
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.838
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.845
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.860
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.871
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.894
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.898
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.903
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.907
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.911
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.916
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.924
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.928
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.942
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.951
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:57.956
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.591
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.598
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.602
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.606
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.610
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.613
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.617
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.622
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.625
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:21:58.857
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-05-24 12:22:24.761
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:24.948
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:24.952
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:24.956
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-05-24 12:22:24.975
+!MESSAGE Lizenz läuft in 124 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:27.004
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:27.008
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:48.007
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:48.046
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:48.050
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:48.054
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:22:48.145
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:30:15.752
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 12:30:15.756
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 12:31:28.260
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gef.editparts.AbstractEditPart.getRoot(AbstractEditPart.java:551)
+	at org.eclipse.gef.editparts.AbstractEditPart.getRoot(AbstractEditPart.java:551)
+	at org.eclipse.gef.editparts.AbstractEditPart.getViewer(AbstractEditPart.java:601)
+	at org.eclipse.gef.ui.palette.editparts.PaletteEditPart.getPaletteViewer(PaletteEditPart.java:253)
+	at org.eclipse.gef.internal.ui.palette.editparts.ToolEntryEditPart.access$1(ToolEntryEditPart.java:1)
+	at org.eclipse.gef.internal.ui.palette.editparts.ToolEntryEditPart$2.actionPerformed(ToolEntryEditPart.java:380)
+	at org.eclipse.draw2d.Clickable.fireActionPerformed(Clickable.java:200)
+	at org.eclipse.draw2d.Clickable$1.actionPerformed(Clickable.java:172)
+	at org.eclipse.draw2d.ButtonModel.fireActionPerformed(ButtonModel.java:134)
+	at org.eclipse.draw2d.ToggleModel.fireActionPerformed(ToggleModel.java:28)
+	at org.eclipse.draw2d.ButtonModel$DefaultFiringBehavior.released(ButtonModel.java:487)
+	at org.eclipse.draw2d.ButtonModel.fireReleased(ButtonModel.java:172)
+	at org.eclipse.draw2d.ButtonModel.setPressed(ButtonModel.java:447)
+	at org.eclipse.gef.internal.ui.palette.editparts.ToolEntryEditPart$OtherToggleButtonTracker.handleButtonUp(ToolEntryEditPart.java:176)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:03:18.850
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:03:55.926
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:07:26.349
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:09:35.456
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:22:30.843
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 0 2011-05-24 13:23:14.906
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCoveredChildNodes(GreedyMarqueeDragTracker.java:104)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.findCovered(GreedyMarqueeDragTracker.java:50)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.performMarqueeSelect(GreedyMarqueeDragTracker.java:295)
+	at com.borland.tg.gde.internal.tools.GreedyMarqueeDragTracker.handleButtonUp(GreedyMarqueeDragTracker.java:277)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1064)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:544)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:263)
+	at com.borland.tg.gde.internal.GdeEditDomain.mouseUp(GdeEditDomain.java:60)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:374)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:538)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:207)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2011-05-24 14:10:03.887 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.412
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.419
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.425
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.432
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.438
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.444
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.454
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.463
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.466
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.470
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.475
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.494
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.497
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.501
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.504
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.508
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.512
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.515
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.518
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.522
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.525
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.528
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.532
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.535
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.538
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:11.542
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.201
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.204
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.208
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.212
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.216
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.219
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.223
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.226
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.230
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:10:14.694
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-05-24 14:11:39.768
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:11:40.421
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:11:40.428
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:11:40.432
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-05-24 14:11:40.534
+!MESSAGE Lizenz läuft in 124 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:11:43.923
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:11:43.930
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:12:10.277
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:12:10.281
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:12:10.285
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:12:10.288
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:12:10.762
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:43:04.599
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 14:43:04.623
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 15:21:19.648
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 15:21:19.652
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_description in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-24 15:21:20.175
+!MESSAGE NLS unused message: WatchExpressionDialogMenu_1 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-05-24 16:48:31.135
+!MESSAGE Während "Asynchroner Modellbefehls-Scheduler" ist ein interner Fehler aufgetreten.
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4248)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJobRunner.doRun(ModelJobRunner.java:135)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.doRun(ModelJob.java:102)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.run(ModelJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

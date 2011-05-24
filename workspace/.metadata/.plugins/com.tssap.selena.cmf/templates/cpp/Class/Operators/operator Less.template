@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Operator "Less"</b>
+
+Erstellt eine passende Implementierung des Standardoperators "&lt;".
+]]>
+</description>
+<method
+	name="operator Less"><![CDATA[
+public:
+    bool operator<(const ${className}& X) const;
+]]>
+</method>
+</template>

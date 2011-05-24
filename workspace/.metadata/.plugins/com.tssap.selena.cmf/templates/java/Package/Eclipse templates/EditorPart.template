@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>EditorPart</b>
+
+Erstellt eine neue Klasse, die das Eclipse-Interface IEditorPart implementiert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="EditorPart1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.ui.IEditorPart;
+
+/**
+ * EditorPart.
+ */
+public class ${className} implements IEditorPart {
+}
+]]>
+</unit>
+</template>

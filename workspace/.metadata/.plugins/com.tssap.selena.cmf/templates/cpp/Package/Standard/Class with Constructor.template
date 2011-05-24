@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Class with constructors</b>
+
+Dieses Pattern erstellt die Klasse mit dem Standardkonstruktor, Copy-Konstruktor
+und virtuellem Destruktor für Ihre Anwendung.
+
+Parameter
+
+<b>className</b>
+  Name der erzeugten Klasse.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="Class1"/>
+<type
+	name="${className}"><![CDATA[
+class ${className} {
+  public:    
+    ${className}() {}
+    ${className}(const ${className}& X) {}
+    virtual ~${className}() {}
+};
+]]>
+</type>
+</template>

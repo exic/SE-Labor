@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkgo2uhzr3-ycwwym">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8ego2uhzr52pkp39"/>
+		<property name="$name" value="Sequence Diagram1"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8ego2uhzr52pkp39">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="5,5,591,431"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:node:::-y8nsowgo2uifqr-r9i62d:-yrgd8ego2uhzr52pkp39">
+				<property name="bounds" value="405,5,60,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvgo2ul211-7x3pwm:-y8nsowgo2uifqr-r9i62d:-yrgd8ego2uhzr52pkp39">
+					<property name="bounds" value="20,98,20,24"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+				<reference referencedUin="design:node:::c87hzvgo2ujdxcgpt34u:-y8nsowgo2uifqr-r9i62d:-yrgd8ego2uhzr52pkp39">
+					<property name="bounds" value="20,34,20,24"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39">
+				<property name="bounds" value="65,5,62,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::l2gqtvgo2ul20vgmpep:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39">
+					<property name="bounds" value="21,98,20,24"/>
+					<property name="location_set_by_user" value="true"/>
+					<property name="foreground_color" value="250,250,250"/>
+					<property name="background_color" value="240,240,240"/>
+					<reference referencedUin="sd20_message_container:design:node:::l2gqtvgo2ul20vgmpep:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39">
+						<reference referencedUin="sd20_message|1|call|79(design:node:::l2gqtvgo2ul20vgmpep:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39)">
+							<property name="sourceAnchor" value="448,195"/>
+							<property name="targetAnchor" value="448,195"/>
+							<property name="location_set_by_user" value="true"/>
+							<reference referencedUin="label:label:sd20_message|1|call|79(design:node:::l2gqtvgo2ul20vgmpep:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39)">
+								<property name="bounds" value="323,195,250,34"/>
+							</reference>
+						</reference>
+					</reference>
+				</reference>
+				<reference referencedUin="design:node:::l2gqtvgo2ujdx8nzw23u:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39">
+					<property name="bounds" value="21,34,20,24"/>
+					<property name="location_set_by_user" value="true"/>
+					<property name="foreground_color" value="250,250,250"/>
+					<property name="background_color" value="240,240,240"/>
+					<reference referencedUin="sd20_message_container:design:node:::l2gqtvgo2ujdx8nzw23u:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39">
+						<reference referencedUin="sd20_message|1|call|80(design:node:::l2gqtvgo2ujdx8nzw23u:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39)">
+							<property name="sourceAnchor" value="447,131"/>
+							<property name="targetAnchor" value="447,131"/>
+							<property name="location_set_by_user" value="true"/>
+							<reference referencedUin="label:label:sd20_message|1|call|80(design:node:::l2gqtvgo2ujdx8nzw23u:-y8nsowgo2uiel0ykv0o6:-yrgd8ego2uhzr52pkp39)">
+								<property name="bounds" value="390,131,115,19"/>
+							</reference>
+						</reference>
+					</reference>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+	<link uin="ieje0rgo2uhzu8-739tx2">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkgo2uhzr3-ycwwym" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8ego2uhzr52pkp39" role="Supplier"></participant>
+	</link>
+</nodeSet>

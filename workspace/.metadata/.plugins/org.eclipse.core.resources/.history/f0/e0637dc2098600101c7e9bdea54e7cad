@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="ba9i2gnlsan97ydk42k">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.I_Spiel_vorbereiten_und_Starten">
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.Interface1">
+		</reference>
+	</view>
+</nodeSet>

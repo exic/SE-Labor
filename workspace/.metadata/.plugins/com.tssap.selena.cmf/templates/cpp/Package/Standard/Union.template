@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Union</b>
+
+Dieses Pattern erstellt die leere Union für Ihre Anwendug.
+
+Parameter
+
+<b>unionName</b>
+  Name der erzeugten Union.
+]]>
+</description>
+<property
+	label="unionName"
+	name="unionName"
+	type="SimpleTypeName"
+	value="Union1"/>
+<type
+	name="${unionName}"><![CDATA[
+union ${unionName}
+{
+};
+]]>
+</type>
+</template>

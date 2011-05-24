@@ -1,0 +1,6 @@
+package src.domain.core;
+public interface ISpielVorbereitenUndStarten {
+	public void starteSpiel(int modus, int spieleranzahl);
+	public void bestimmeKategorie(Kategorie kategorie1, Kategorie kategorie2, Kategorie kategorie3, Kategorie kategorie4);
+	public void bestimmeNameUndFarbe(String name, Color farbe);
+}

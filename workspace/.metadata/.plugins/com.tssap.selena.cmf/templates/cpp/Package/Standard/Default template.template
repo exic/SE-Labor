@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Default Template</b>
+
+Dieses Pattern erstellt die Standardschablonenklasse für Ihre Anwendung.
+
+Parameter
+
+<b>className</b>
+  Name der erzeugten Schablone.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="Template1"/>
+<type
+	name="${className}"><![CDATA[
+template <class T> class ${className} {
+};
+]]>
+</type>
+</template>

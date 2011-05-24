@@ -1,0 +1,6 @@
+/**
+ * @associates $targetName
+ * @directed directed
+ * @supplierCardinality 0..*
+ */
+java.util.SortedMap ${fieldName} = null;

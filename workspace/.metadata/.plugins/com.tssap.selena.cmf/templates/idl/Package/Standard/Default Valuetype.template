@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Default Valuetype</b>
+
+Dieses Pattern erstellt den Standard-Valuetype für Ihre Anwendung.
+
+Parameter
+
+<b>valuetypeName</b>
+  Name des erzeugten Valuetype.
+]]>
+</description>
+<property
+	label="valuetypeName"
+	name="valuetypeName"
+	type="SimpleTypeName"
+	value="Valuetype1"/>
+<type
+	name="${valuetypeName}"><![CDATA[
+valuetype ${valuetypeName} {
+};
+]]>
+</type>
+</template>

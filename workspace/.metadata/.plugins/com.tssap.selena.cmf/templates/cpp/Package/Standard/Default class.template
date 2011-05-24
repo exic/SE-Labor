@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Default Class</b>
+
+Dieses Pattern erstellt die Standardklasse für Ihre Anwendung.
+
+Parameter
+
+<b>className</b>
+  Name der erzeugten Klasse.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="Class1"/>
+<type
+	name="${className}"><![CDATA[
+class ${className} {
+};
+]]>
+</type>
+</template>

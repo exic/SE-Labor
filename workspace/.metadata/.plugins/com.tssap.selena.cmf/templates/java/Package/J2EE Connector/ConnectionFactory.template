@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt ein Interface, das einen Verbindungsgenerator repräsentiert. Dieser 
+wird im JNDI-Namespace verwendet, um EIS-Verbindungen
+(Enterprise Information Systems) herzustellen.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyConnectionFactory"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import java.io.Serializable;
+import javax.resource.Referenceable;
+import javax.resource.ResourceException;
+
+/**
+ * Simple Conection Factory Interface.
+ */
+public interface ${className} extends Serializable, Referenceable
+{
+     /**
+     * @return Connection instance.
+     */
+     public Object getConnection() throws ResourceException;
+}
+]]>
+</unit>
+</template>

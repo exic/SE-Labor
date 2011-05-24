@@ -34,6 +34,23 @@
 <entry path="C:\Users\grjo1012\Desktop\2K8L\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\Borland\Together" version="1.5.0_14">
+<bootpath>
+<entry path="C:\Borland\Together\jre\lib\rt.jar"/>
+<entry path="C:\Borland\Together\jre\lib\i18n.jar"/>
+<entry path="C:\Borland\Together\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Borland\Together\jre\lib\jsse.jar"/>
+<entry path="C:\Borland\Together\jre\lib\jce.jar"/>
+<entry path="C:\Borland\Together\jre\lib\charsets.jar"/>
+<entry path="C:\Borland\Together\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Borland\Together\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Borland\Together\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="C:\Programme\Borland\Togethr2K8" version="1.5.0_14">
 <bootpath>
 <entry path="C:\Programme\Borland\Togethr2K8\jre\lib\rt.jar"/>
@@ -49,6 +66,23 @@
 </extensionDirs>
 <endorsedDirs>
 <entry path="C:\Programme\Borland\Togethr2K8\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Borland\Together\jre" version="1.5.0_14">
+<bootpath>
+<entry path="C:\Borland\Together\jre\lib\rt.jar"/>
+<entry path="C:\Borland\Together\jre\lib\i18n.jar"/>
+<entry path="C:\Borland\Together\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Borland\Together\jre\lib\jsse.jar"/>
+<entry path="C:\Borland\Together\jre\lib\jce.jar"/>
+<entry path="C:\Borland\Together\jre\lib\charsets.jar"/>
+<entry path="C:\Borland\Together\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Borland\Together\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Borland\Together\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
 </libraryInfos>

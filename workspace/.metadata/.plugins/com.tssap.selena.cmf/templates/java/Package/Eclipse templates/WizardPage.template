@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>WizardPage</b>
+
+Erstellt eine neue Klasse, die das Eclipse-Interface IWizardPage implementiert.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="WizardPage1"/>
+<unit
+	name="${className}"><![CDATA[
+import org.eclipse.jface.wizard.IWizardPage;
+
+/**
+ * WizardPage.
+ */
+public class ${className} implements IWizardPage {
+}
+]]>
+</unit>
+</template>

@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Class</b>
+
+Erstellt eine neue Klasse.
+
+Parameter
+
+<b>init</b>
+  Generiert eine Konstruktormethode.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyClass"/>
+<property
+	label="init"
+	name="init"
+	type="Boolean"
+	value="true"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+/**
+ * ${className} class.
+ */
+public class ${className}
+{
+#if( $init )
+	public ${className}()
+	{
+	}
+#end
+}
+]]>
+</unit>
+</template>

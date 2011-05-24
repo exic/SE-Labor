@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+<help>Default Union</help>
+<java_version>1.4</java_version>
+<property label="Name" name="unionname" type="String" value="Union1"/>
+<property label="First variable name" name="firstname" type="String" value="field1"/>
+<property label="First variable type" name="firsttype" type="TypeName" value="long"/>
+<property label="Default variable name" name="defname" type="String" value="field2"/>
+<property label="Default variable type" name="deftype" type="TypeName" value="string"/>
+<type name="${unionname}"><![CDATA[union ${unionname} switch(long) {
+
+case 1: ${firsttype} ${firstname};
+
+default: ${deftype} ${defname};
+
+};
+
+]]></type></template>

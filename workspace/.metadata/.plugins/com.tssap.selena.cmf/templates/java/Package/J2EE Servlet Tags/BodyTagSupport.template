@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die javax.servlet.jsp.tagext.BodyTagSupport erweitert.
+]]>
+</description>
+<help>com.togethersoft.togetherxj.doc.user.taglib_bodytagsupport_help</help>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyBodyTagSupport"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.tagext.BodyTagSupport;
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class ${className} extends BodyTagSupport
+{
+	public int doStartTag() throws JspException {
+		//
+		// Write your code here
+		//
+		// Use EVAL_BODY_TAG for jsp 1.1
+		return EVAL_BODY_BUFFERED;
+	}
+
+	public int doEndTag() throws JspException {
+		//
+		// Write your code here
+		//
+		return EVAL_PAGE;
+	}
+
+	public int doAfterBody() throws JspException {
+		//
+		// Write your code here
+		//
+		return SKIP_BODY;
+	}
+
+	public void doInitBody() throws JspException { }
+
+}
+]]>
+</unit>
+</template>

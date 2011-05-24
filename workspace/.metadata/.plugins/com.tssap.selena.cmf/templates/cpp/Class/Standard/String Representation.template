@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>String Representation</b>
+
+Erstellt eine passende Implementierung der Standardmethode toString().
+]]>
+</description>
+<method
+	name="toString"><![CDATA[
+public:
+/**
+ * @see	Object#toString()
+ */
+char* ${methodName}() {
+	return "<${className}/>";
+}
+]]>
+</method>
+</template>

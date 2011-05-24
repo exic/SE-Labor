@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Interface</b>
+
+Erstellt ein neues Interface.
+]]>
+</description>
+<property
+	name="className"
+	type="SimpleTypeName"
+	value="MyInterface"/>
+<unit
+	name="${className}"><![CDATA[
+/**
+ * ${className} interface.
+ */
+public interface ${className}
+{
+}
+]]>
+</unit>
+</template>

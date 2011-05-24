@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<template>
+<java_version>1.5</java_version>
+<description><![CDATA[
+<b>Enumeration Type</b>
+
+Erstellt einen neuen Aufzählungstyp.
+
+]]>
+</description>
+<property
+	label="enumName"
+	name="enumName"
+	type="SimpleTypeName"
+	value="MyEnum"/>
+<unit
+	name="${enumName}"
+	package=""><![CDATA[
+/**
+ * ${enumName} enumeration.
+ */
+public enum ${enumName}
+{
+}
+]]>
+</unit>
+</template>

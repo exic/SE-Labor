@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die javax.servlet.jsp.tagext.Tag implementiert.
+]]>
+</description>
+<help>com.togethersoft.togetherxj.doc.user.taglib_tag_help</help>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyTag"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.tagext.Tag;
+import javax.servlet.jsp.PageContext;
+
+public class ${className} implements Tag
+{
+	private Tag parent;
+	protected PageContext pageContext;
+
+	public void setPageContext(PageContext pageContext) {
+		this.pageContext = pageContext;
+	}
+
+	public int doStartTag() throws JspException {
+		//
+		// Write your code here
+		//
+		return SKIP_BODY;
+	}
+
+	public int doEndTag() throws JspException {
+		//
+		// Write your code here
+		//
+		return EVAL_PAGE;
+	}
+
+	public Tag getParent() {
+		return parent;
+	}
+
+	public void release() {
+	}
+
+	public void setParent(Tag parent) {
+		this.parent = parent;
+	}
+}
+]]>
+</unit>
+</template>

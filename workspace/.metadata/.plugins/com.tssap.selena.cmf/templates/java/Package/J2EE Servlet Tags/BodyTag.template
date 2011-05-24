@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die  javax.servlet.jsp.tagext.BodyTag implementiert.
+]]>
+</description>
+<help>com.togethersoft.togetherxj.doc.user.taglib_bodytag_help</help>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyBodyTag"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.PageContext;
+import javax.servlet.jsp.tagext.BodyContent;
+import javax.servlet.jsp.tagext.BodyTag;
+import javax.servlet.jsp.tagext.Tag;
+
+public class ${className} implements BodyTag
+{
+	private Tag parent;
+	protected PageContext pageContext;
+	protected BodyContent bodyContent;
+
+	public void setBodyContent(BodyContent bodyContent){
+		this.bodyContent = bodyContent;
+	}
+
+	public int doStartTag() throws JspException {
+		//
+		// Write your code here
+		//
+		// Use EVAL_BODY_TAG for jsp 1.1
+		return EVAL_BODY_BUFFERED;
+	}
+
+	public int doEndTag() throws JspException {
+		//
+		// Write your code here
+		//
+		return EVAL_PAGE;
+	}
+
+	public Tag getParent() {
+		return parent;
+	}
+
+	public void setParent(Tag parent) {
+		this.parent = parent;
+	}
+
+	public void release() { }
+
+	public void setPageContext(PageContext pageContext) {
+		this.pageContext = pageContext;
+	}
+
+	public int doAfterBody() throws JspException {
+		//
+		// Write your code here
+		//
+		return SKIP_BODY;
+	}
+
+	public void doInitBody() throws JspException {
+	}
+}
+]]>
+</unit>
+</template>

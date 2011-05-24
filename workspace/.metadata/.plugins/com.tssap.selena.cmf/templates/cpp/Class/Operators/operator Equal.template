@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Operator "Equal"</b>
+
+Erstellt eine passende Implementierung des Standardoperators "==".
+]]>
+</description>
+<method
+	name="operator Equal"><![CDATA[
+public:
+    bool operator==(const ${className}& X) const;
+]]>
+</method>
+</template>

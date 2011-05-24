@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern WLE Base Interface</b>
+
+Dieses Pattern erstellt zwei Interfaces.
+
+Parameter
+
+<b>interfaceName</b>
+  Name des erzeugten Interface.
+]]>
+</description>
+<property
+	label="interfaceName"
+	name="interfaceName"
+	type="SimpleTypeName"
+	value="Interface1"/>
+
+<!-- TODO #pragma prefix "beasys.com" -->
+
+<type
+	name="${interfaceName}"><![CDATA[
+interface ${interfaceName} 
+{
+};
+]]>
+</type>
+
+<type
+	name="${interfaceName}Factory"><![CDATA[
+interface ${interfaceName}Factory
+{
+    ${interfaceName} find_simple();
+
+    // To make ${interfaceName} scalable have the SimpleFactory use some means
+    // to identify (specify in criteria) the user in the ${interfaceName} object
+    // reference it creates. eg. Name (string), SS# (unsigned long),
+    // tel_no (string).
+};
+]]>
+</type>
+
+</template>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<template>
+<java_version>1.5</java_version>
+<description><![CDATA[
+<b>Annotation Type</b>
+
+Erstellt einen neuen Anmerkungstyp.
+
+]]>
+</description>
+<property
+	label="annotName"
+	name="annotName"
+	type="SimpleTypeName"
+	value="MyAnnotationType"/>
+<unit
+	name="${annotName}"
+	package=""><![CDATA[
+/**
+ * ${annotName} annotation type.
+ */
+@interface ${annotName}
+{
+}
+]]>
+</unit>
+</template>

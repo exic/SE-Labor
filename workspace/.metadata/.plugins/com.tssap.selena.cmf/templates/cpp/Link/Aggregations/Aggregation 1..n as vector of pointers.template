@@ -1,0 +1,6 @@
+private:
+  /**
+   * @link aggregation
+   * @supplierCardinality 1..n 
+   */
+  vector<${targetName}*> ${fieldName};

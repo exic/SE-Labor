@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, welche die Klasse HttpServlet der Bibliothek
+javax.servlet.http erweitert. Http-Servlets sind spezielle Servlets, die
+für die Behandlung von HTTP-Anforderungen ausgelegt sind und auf diese
+Anforderungen in der Regel mit HTML antworten.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyHttpServlet"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Represents a servlet.
+ */
+public class ${className} extends HttpServlet {
+
+        /**
+         * @see HttpServlet#doGet()
+         */
+        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+        {
+                // ...
+        }
+}
+]]>
+</unit>
+</template>

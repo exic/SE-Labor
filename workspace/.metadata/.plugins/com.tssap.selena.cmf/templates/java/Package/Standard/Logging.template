@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Logging</b>
+
+Erstellt eine Implementierung des log4j-Protokollmechanismus.
+]]>
+</description>
+<property
+	name="className"
+	type="SimpleTypeName"
+	value="Log"/>
+<unit
+	name="${className}"><![CDATA[
+import org.apache.log4j.Category;
+
+/**
+ * Logging facility.
+ */
+public final class ${className}
+{
+	private static Category	logger = Category.getInstance(${className}.class);
+
+	/* This class is not intended to be instantiated. */
+	private ${className}() {
+	}
+
+	/**
+	 * Logs the given error message.
+	 */
+	public static void error(String message) {
+		logger.error(message);
+	}
+
+	/**
+	 * Logs the given warning message.
+	 */
+	public static void warn(String message) {
+		logger.warn(message);
+	}
+
+	/**
+	 * Logs the given informational message.
+	 */
+	public static void info(String message) {
+		logger.info(message);
+	}
+
+	/**
+	 * Logs the given debugging message.
+	 */
+	public static void debug(String message) {
+		logger.error(message);
+	}
+}
+]]>
+</unit>
+</template>

@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Assertions</b>
+
+Erstellt Hilfsklassen, die Assertionen implementieren.
+]]>
+</description>
+<property
+	name="className"
+	type="SimpleTypeName"
+	value="Assert"/>
+<unit
+	name="${className}"><![CDATA[
+/**
+ * Assert is useful for for embedding runtime sanity checks in code.  The
+ * predicate methods all test a condition and throw some type of unchecked
+ * exception if the condition does not hold.<p>
+ *
+ * Assertion failure exceptions, like most runtime exceptions, are thrown when
+ * something is misbehaving. Assertion failures are invariably unspecified
+ * behavior; consequently, clients should never rely on these being thrown
+ * (and certainly should not being catching them specifically).</p>
+ */
+public final class ${unitName}
+{
+	/* This class is not intended to be instantiated. */
+	private ${unitName}() {
+	}
+
+	/**
+	 * Asserts that an argument is legal. If the given boolean is not
+	 * <code>true</code>, an <code>AssertionError</code> is thrown.  The
+	 * given message is included in that exception, to aid debugging.
+	 *
+	 * @param	expression the outcode of the check
+	 * @param	message the message to include in the exception
+	 * @return	<code>true</code> if the check passes (does not return
+	 *    		if the check fails)
+	 * @exception	AssertionError if the legality test failed
+	 */
+	public static boolean isLegal(boolean expression, String message) {
+		if (! expression)
+			throw new AssertionError(message);
+		return expression;
+	}
+
+	/**
+	 * Asserts that an argument is legal. If the given boolean is not
+	 * <code>true</code>, an <code>AssertionError</code> is thrown.
+	 *
+	 * @param	expression the outcode of the check
+	 * @return	<code>true</code> if the check passes (does not return
+	 *    		if the check fails)
+	 * @exception	AssertionError if the legality test failed
+	 */
+	public static boolean isLegal(boolean expression) {
+		return isLegal(expression, "");
+	}
+
+	/**
+	 * Asserts that the given object is not <code>null</code>. If this is
+	 * not the case, some kind of unchecked exception is thrown.  The
+	 * given message is included in that exception, to aid debugging.
+	 *
+	 * @param	object the value to test
+	 * @param	message the message to include in the exception
+	 * @exception	AssertionError if the object is <code>null</code>
+	 */
+	public static void isNotNull(Object object, String message) {
+		if (object == null)
+			throw new AssertionError(message);
+	}
+
+	/**
+	 * Asserts that the given object is not <code>null</code>. If this is
+	 * not the case, some kind of unchecked exception is thrown.
+	 * 
+	 * @param	object the value to test
+	 * @exception	AssertionError if the object is <code>null</code>
+	 */
+	public static void isNotNull(Object object) {
+		isNotNull(object, "");
+	}
+
+	/**
+	 * Asserts that the given boolean is <code>true</code>. If this is not
+	 * the case, some kind of unchecked exception is thrown.  The given
+	 * message is included in that exception, to aid debugging.
+	 *
+	 * @param	expression the outcode of the check
+	 * @param	message the message to include in the exception
+	 * @return	<code>true</code> if the check passes (does not return
+	 *    		if the check fails)
+	 */
+	public static boolean isTrue(boolean expression, String message) {
+		if (!expression)
+			throw new AssertionError(message);
+		return expression;
+	}
+
+	/**
+	 * Asserts that the given boolean is <code>true</code>. If this is not
+	 * the case, some kind of unchecked exception is thrown.
+	 *
+	 * @param	expression the outcode of the check
+	 * @return	<code>true</code> if the check passes (does not return
+	 *    		if the check fails)
+	 */
+	public static boolean isTrue(boolean expression) {
+		return isTrue(expression, "");
+	}
+}
+]]>
+</unit>
+<unit
+	name="AssertionError"><![CDATA[
+/**
+ * Thrown to indicate that an assertion has failed.
+ */
+/* package */ class ${unitName} extends Error
+{
+	/**
+	 * Constructs an AssertionError with the given detail message.
+	 */
+	public ${unitName}(String message) {
+		super(message);
+	}
+
+	/**
+	 * Constructs an AssertionError with no detail message.
+	 */
+	public ${unitName}() {
+	}
+}
+]]>
+</unit>
+</template>

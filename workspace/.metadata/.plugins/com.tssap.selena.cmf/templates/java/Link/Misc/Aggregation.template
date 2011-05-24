@@ -1,0 +1,4 @@
+/**
+ * @link aggregation
+ */
+${targetName} ${fieldName} = null;

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Default attribute</b>
+
+Dieses Pattern erstellt das Standardattribut in Ihrer Klasse.
+
+Parameter
+
+<b>attributeName</b>
+  Name des Attributs
+
+<b>attributeType</b>
+  Typ des Attributs
+
+]]>
+</description>
+<property
+	label="attributeType"
+	name="attributeType"
+	type="SimpleTypeName"
+	value="int"/>
+<property
+	label="attributeName"
+	name="attributeName"
+	type="FieldName"
+	value="field1"/>
+<field
+	name="${attributeName}"><![CDATA[
+${attributeType} ${attributeName};
+]]>
+</field>
+</template>

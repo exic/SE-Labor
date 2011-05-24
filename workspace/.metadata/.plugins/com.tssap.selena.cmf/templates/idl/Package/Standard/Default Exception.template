@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Pattern Default Exception</b>
+
+Dieses Pattern erstellt die Exception für Ihre Anwendung.
+
+Parameter
+
+<b>exceptionName</b>
+  Name der erzeugten Exception.
+]]>
+</description>
+<property
+	label="exceptionName"
+	name="exceptionName"
+	type="SimpleTypeName"
+	value="Exception1"/>
+<type
+	name="${exceptionName}"><![CDATA[
+exception ${exceptionName} {
+};
+]]>
+</type>
+</template>

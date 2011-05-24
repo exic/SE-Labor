@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>UnitTest</b>
+
+Erstellt eine neue Klasse, die einen JUnit-Test repräsentiert.
+
+Teilnehmer
+
+<b>testCases</b>
+  Eine Liste mit einem oder mehreren Testfällen, aus denen die Testsuite besteht.
+
+<b>testClass</b> 
+  Der Name der zu erstellenden Klasse
+
+Parameter
+
+<b>suiteName</b>
+  Der Name der Suite
+]]>
+</description>
+<property
+	label="testCases"
+	name="testCases"
+	type="ClassArray"/>
+<property
+	label="testClass"
+	name="testClass"
+	type="SimpleTypeName"
+	value="MyTest"/>
+<property
+	label="suiteName"
+	name="suiteName"
+	type="String"
+	value="My Test"/>
+<unit
+	name="${testClass}"
+	package=""><![CDATA[
+import junit.framework.*;
+import junit.textui.TestRunner;
+
+/**
+ * Executes all tests in this package.
+ */
+public class ${testClass} {
+	public static void main(String[] args) {
+		TestRunner.run(suite());
+	}
+
+	public static Test suite() {
+		TestSuite suite = new TestSuite("${suiteName}");
+#foreach( $testCase in $testCases )
+		suite.addTestSuite(${testCase}.class);
+#end
+		return suite;
+	}
+}
+]]>
+</unit>
+</template>

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Bean</b>
+
+Erstellt eine neue Klasse mit einer Basisimplementierung eines Java-Bean.
+]]>
+</description>
+<property
+	name="className"
+	type="SimpleTypeName"
+	value="MyBean"/>
+<unit
+	name="${className}"><![CDATA[
+import java.io.Serializable;
+
+public class ${className} implements Serializable {
+}
+]]>
+</unit>
+</template>

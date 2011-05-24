@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Exception</b>
+
+Erstellt eine neue Klasse mit einer Basisimplementierung einer Java-Exception.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyException"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+/**
+ * Thrown to indicate an exception.
+ */
+public class ${className} extends Exception
+{
+	/**
+	 * Constructs an <code>${className}</code> with no detail message.
+	 */
+	public ${className}()
+	{
+		super();
+	}
+
+	/**
+	 * Constructs an <code>${className}</code> with the specified detail message.
+	 *
+	 * @param   s   the detail message.
+	 */
+	public ${className}(String s)
+	{
+		super(s);
+	}
+}
+]]>
+</unit>
+</template>

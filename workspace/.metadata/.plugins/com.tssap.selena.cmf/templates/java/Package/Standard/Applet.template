@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Applet</b>
+
+Erstellt eine neue Klasse mit einer Basisimplementierung eines Java-Applet.
+
+Parameter
+
+<b>init</b>
+  Generiert die Methoden init und destroy.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyApplet"/>
+<property
+	label="init"
+	name="init"
+	type="Boolean"
+	value="false"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import java.applet.Applet;
+
+/**
+ * Applet.
+ */
+public class ${className} extends Applet
+{
+#if( $init )
+	/**
+	 * @see	Applet#init
+	 */
+	public void init()
+	{
+		// write your code here
+	}
+
+	/**
+	 * @see	Applet#destroy
+	 */
+	public void destroy()
+	{
+		// write your code here
+	}
+#end
+	/**
+	 * @see	Applet\#stop
+	 */
+	public void stop()
+	{
+		// write your code here
+	}
+
+	/**
+	 * @see	Applet#start
+	 */
+	public void start()
+	{
+		// write your code here
+	}
+}
+]]>
+</unit>
+</template>

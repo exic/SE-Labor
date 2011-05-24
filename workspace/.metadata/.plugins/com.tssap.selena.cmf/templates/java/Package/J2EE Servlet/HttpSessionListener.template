@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+Erstellt eine Klasse, die javax.servlet.http.HttpSessionListener
+implementiert und reagieren kann, wenn die HTTP-Sitzung aktiviert
+oder passiv geschaltet wird.
+]]>
+</description>
+<property
+	label="className"
+	name="className"
+	type="SimpleTypeName"
+	value="MyHttpSessionListener"/>
+<unit
+	name="${className}"
+	package=""><![CDATA[
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+public class ${className} implements HttpSessionListener
+{
+	public ${className}() {
+	}
+
+	public void sessionCreated(HttpSessionEvent event) {
+	}
+
+	public void sessionDestroyed(HttpSessionEvent event) {
+	}
+}
+]]>
+</unit>
+</template>

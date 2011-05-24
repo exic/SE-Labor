@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Default operation</b>
+
+Dieses Pattern erstellt das Standardoperation in Ihrer Klasse.
+
+Parameter
+
+<b>operationName</b>
+  Name der Operation
+
+<b>returnType</b>
+  Rückgabetyp der Operation
+
+
+]]>
+</description>
+<property
+	label="returnType"
+	name="returnType"
+	type="SimpleTypeName"
+	value="long"/>
+<property
+	label="operationName"
+	name="operationName"
+	type="MethodName"
+	value="Operation1"/>
+<method
+	name="Operation"><![CDATA[
+${returnType} ${operationName}();
+]]>
+</method>
+</template>

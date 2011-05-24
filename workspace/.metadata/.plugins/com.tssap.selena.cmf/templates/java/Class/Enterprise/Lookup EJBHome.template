@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<template>
+<description><![CDATA[
+<b>Lookup EJBHome</b>
+
+Erstellt eine Methode, mit der ein EJBHome im ursprünglichen JNDI-Kontext untersucht werden kann.
+]]>
+</description>
+<import>javax.naming.Context</import>
+<import>javax.naming.InitialContext</import>
+<import>javax.naming.NamingException</import>
+<import>javax.ejb.EJBHome</import>
+<method
+	name="getHome"><![CDATA[
+/**
+ * Returns <code>EJBHome</code> interface from an initial JNDI
+ * context.
+ *
+ * @param name	the name to lookup.
+ */
+public EJBHome ${methodName}(String name) throws NamingException
+{
+	Context context = new InitialContext();
+	return (EJBHome)context.lookup(name);
+}
+]]>
+</method>
+</template>
