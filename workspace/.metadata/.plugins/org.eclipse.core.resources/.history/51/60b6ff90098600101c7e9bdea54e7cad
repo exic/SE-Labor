@@ -1,3 +1,0 @@
-package src.domain.core;
-public interface Spiel_starten_und_vorbereiten_Handler {
-}

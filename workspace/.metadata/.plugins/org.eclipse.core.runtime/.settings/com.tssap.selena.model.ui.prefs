@@ -1,4 +1,5 @@
-#Thu May 12 16:34:52 CEST 2011
+#Tue May 31 17:09:20 CEST 2011
 model.ui.option.recent_delete_from_model=true
 eclipse.preferences.version=1
+model.ui.option.skip_delete_confirmation=true
 model.ui.option.show_warning_copied_relationships=true

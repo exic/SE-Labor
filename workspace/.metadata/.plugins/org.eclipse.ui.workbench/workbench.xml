@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="137" version="2.0">
+<workbench progressCount="135" version="2.0">
 <workbenchAdvisor/>
 <window height="860" maximized="true" width="800" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -11,7 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.borland.tg.gde.diagramActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.borland.tg.gde.diagramEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -26,18 +26,49 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1302016649304" focus="true" label="Arbeitsbereich - Modellierung">
 <editors>
-<editorArea activeWorkbook="DefaultEditorWorkbook">
-<info part="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<info part="org.eclipse.ui.internal.EditorStack@1cc83fe">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info part="DefaultEditorWorkbook" ratio="0.94148934" ratioLeft="708" ratioRight="44" relationship="4" relative="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WuerfelnUndZiehenHandler.java" partName="WuerfelnUndZiehenHandler.java" path="C:/Users/sylvain/workspace/LaborSwE/Labor-SE/workspace/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" title="WuerfelnUndZiehenHandler.java" tooltip="Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WuerfelnUndZiehenHandler.java" partName="WuerfelnUndZiehenHandler.java" path="C:/Users/sylvain/workspace/LaborSwE/Labor-SE/workspace/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" title="WuerfelnUndZiehenHandler.java" tooltip="Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java"/>
 <editorState selectionLength="0" selectionOffset="221"/>
+</editor>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpielGestartet.java" partName="SpielGestartet.java" path="C:/Users/sylvain/workspace/LaborSwE/Labor-SE/workspace/Modellierung/src/src/domain/states/SpielGestartet.java" title="SpielGestartet.java" tooltip="Modellierung/src/src/domain/states/SpielGestartet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Modellierung/src/src/domain/states/SpielGestartet.java"/>
+<editorState selectionLength="0" selectionOffset="244"/>
+</editor>
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="Zustandsautomat" partName="Zustandsautomat" title="Zustandsautomat" tooltip="Zustandsautomat" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" partName="Activity Diagram1" title="Activity Diagram1" tooltip="Activity Diagram1" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2pg9vv-wt3e21"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" partName="Spiel starten und vorbereiten" title="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2u5tnyjo709y"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" partName="Würfeln und Ziehen" title="Würfeln und Ziehen" tooltip="Würfeln und Ziehen" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="states" partName="states" title="states" tooltip="states" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V1hexuhgocuy4qy6819nf"/>
 </editor>
 </editors>
 <views>
@@ -52,15 +83,16 @@
 <expanded>
 <element element="model:project::Analyse" model="model:project::Analyse"/>
 <element element="model:project::Modellierung" model="model:project::Modellierung"/>
+<element element="com.tssap.selena.Resource:folder::src" model="model:project::Modellierung"/>
+<element element="com.tssap.selena.Resource:folder::src/domain" model="model:project::Modellierung"/>
+<element element="com.tssap.selena.Resource:folder::src/domain/states" model="model:project::Modellierung"/>
 <element element="design:view:::V1hexuhgnlrkidjlh8bc5" model="model:project::Modellierung"/>
 <element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlrkidjlh8bc5::design@view@@@V1hexuhgnlrljnhl4pizp" referencedEntity="design:view:::V1hexuhgnlrljnhl4pizp"/>
 <element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlrljnhl4pizp::design@view@@@V1hexuhgnlsaeoh5vutnx" referencedEntity="design:view:::V1hexuhgnlsaeoh5vutnx"/>
-<element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlsaeoh5vutnx::design@view@@@ba9i2gnlsan97ydk42k" referencedEntity="design:view:::ba9i2gnlsan97ydk42k"/>
-<element model="model:project::Modellierung" reference="reference::design@view@@@ba9i2gnlsan97ydk42k::jdt@e_class@src@src.domain.core.SpielVorbereitenUndStartenHandler" referencedEntity="jdt:e_class:src:src.domain.core.SpielVorbereitenUndStartenHandler"/>
-<element model="model:project::Modellierung" reference="reference::design@view@@@ba9i2gnlsan97ydk42k::jdt@e_method@src@src.domain.core.SpielVorbereitenUndStartenHandler.starteSpiel@starteSpiel~I~I:jdt@e_class@src@src.domain.core.SpielVorbereitenUndStartenHandler" referencedEntity="jdt:e_method:src:src.domain.core.SpielVorbereitenUndStartenHandler.starteSpiel:starteSpiel~I~I"/>
+<element model="model:project::Modellierung" reference="reference::design@view@@@V1hexuhgnlsaeoh5vutnx::design@view@@@V1hexuhgocuy4qy6819nf" referencedEntity="design:view:::V1hexuhgocuy4qy6819nf"/>
 </expanded>
 <selection>
-<element element="design:view:::V-b8dyjigo2q9km2-kfwpnu" model="model:project::Modellierung"/>
+<element element="jdt:e_class:src:src.domain.states.DarfWuerfeln" model="model:project::Modellierung"/>
 </selection>
 </viewState>
 </view>
@@ -75,7 +107,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.togethersoft.selena.perspective.uml">
+<perspectives activePart="com.borland.tg.gde.diagramEditor" activePerspective="com.togethersoft.selena.perspective.uml">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.togethersoft.togetherxj.uml.perspective.ModelingPerspective" id="com.togethersoft.selena.perspective.uml" label="Modellierung"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -128,9 +160,14 @@
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
 <view id="com.tssap.selena.model.ui.navigator.view"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
-<view id="com.borland.selena.modelmarker.modelbookmarks.view"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@11269e5" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
+<fastViews>
+<view id="com.borland.selena.modelmarker.modelbookmarks.view" ratio="0.3"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.29933774"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1d8b01d">
@@ -151,16 +188,13 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.28760228" ratioLeft="457" ratioRight="1132" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
+<info part="org.eclipse.ui.editorss" ratio="0.18816866" ratioLeft="299" ratioRight="1290" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1d8b01d"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@11269e5" ratio="0.65824467" ratioLeft="495" ratioRight="257" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
-<page content="com.borland.selena.modelmarker.modelbookmarks.view" label="Lesezeichen für Modell"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="Eigenschaften"/>
+<folder appearance="2" expanded="0">
+<page content="com.borland.selena.modelmarker.modelbookmarks.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="com.borland.tg.bpm.simulation.ui.SV" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -170,163 +204,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjignsw2tv6-75o95p"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2pg9vv-wt3e21"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2u5tnyjo709y"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Modellierung/src/src/domain/core/WuerfelnUndZiehenHandler.java"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V1hexuhgocuy4qy6819nf"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Modellierung/src/src/domain/states/SpielGestartet.java"/>
 </editors>
-<item historyLabel="/[Kontrollablauf: [DecisionNode22] -&gt; [Auf Eingabe warten]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qmnbomhf2hx@l7v8cgo2qksrh-wjtet7@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qksrh-wjtet7@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spielsystem" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/[Übergangsbeziehung: [DarfWuerfeln] -&gt; [WuerfelAktionGestartet]]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/[Übergangsbeziehung: [WuerfelAktionGestartet] -&gt; [DarfWuerfeln]]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="3">
-<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjignsw2tv6-75o95p"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten(bis)" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/[Endzustand]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@5006egocxr4h0-k9f7ry@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten(bis)" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/WissenstreiterWaehlen" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Aktion]" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@-qbjze4go2q3hu5-6et8hf@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phbdw-89ded0@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Controller" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@a6k48rgo2phbdw-89ded0@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[keine 6, weniger als 2 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocyin3eaiw09m@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocyin3eaiw09m@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spieler der beginnen darf wird ausgewählt" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [Spieler der beginnen darf wird ausgewählt] -&gt; [Beginner und Reihenfolge der Spieler merken]]" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@link@@@jdhzmgo2xyha7lqfsds@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [Spieler der beginnen darf wird ausgewählt] -&gt; [Beginner und Reihenfolge der Spieler merken]]" index="4">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2pg9vv-wt3e21::design@link@@@jdhzmgo2xyha7lqfsds@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@hsshgo2xyha6fjgs9l@-46k66rgo2pgjll-3rup2w:design@node@@@a6k48rgo2phjja-c2i9ka@-46k66rgo2pgjll-3rup2w:design@node@@@-46k66rgo2pgjll-3rup2w"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/WissenstreiterWaehlen" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="3">
-<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjignsw2tv6-75o95p"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[keine 6, weniger als 2 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocyin3eaiw09m@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocyin3eaiw09m@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="5">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Würfeln und Ziehen" index="0">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="5">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
+<item historyLabel="Zustandsautomat/WissenstreiterWaehlen" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Würfeln und Ziehen" index="0">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="5">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2u5tnyjo709y"/>
+<item historyLabel="Zustandsautomat/WissenstreiterWaehlen" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@301blgocxr1nb-25hlr7@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@ds4pwgocxr1nb-6g1eej@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Lifeline2" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-y8nsowgo2u6r6r7nraxy@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/KategorienBestimmt" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.KategorienBestimmt"/>
 </item>
-<item historyLabel="/Lifeline2" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-y8nsowgo2u6r6r7nraxy@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/State" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.State"/>
 </item>
-<item historyLabel="/[Beschriftung]" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::label@label@sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.SpielGestartet@State:jdt@e_class@src@src.domain.states.SpielGestartet"/>
 </item>
-<item historyLabel="/call" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2u752n-v9jbzj@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/State" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.State"/>
 </item>
-<item historyLabel="/call" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|80(design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ubh4721e7ks@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/SpielGestartet" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.SpielGestartet"/>
 </item>
-<item historyLabel="/Spiel starten und vorbereiten" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="SpielGestartet.java" index="2">
+<position info="not_deleted" x="206" y="14"/>
 </item>
-<item historyLabel="/call" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/SpielGestartet" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.SpielGestartet"/>
 </item>
-<item historyLabel="/Würfeln und Ziehen" index="0">
-<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
+<item historyLabel="states/State" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.State"/>
 </item>
-<item historyLabel="/Lifeline2" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::design@node@@@-y8nsowgo2uifqr-r9i62d@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/WuerfelAktionGestartet" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.WuerfelAktionGestartet"/>
 </item>
-<item historyLabel="/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/SpielVorbereitet" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.SpielVorbereitet"/>
 </item>
-<item historyLabel="/call" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::sd20_message|1|call|80(design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ujdx8nzw23u@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/WuerfelAktionGestartet" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@e_class@src@src.domain.states.WuerfelAktionGestartet"/>
 </item>
-<item historyLabel="/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.WuerfelAktionGestartet@State:jdt@e_class@src@src.domain.states.WuerfelAktionGestartet"/>
 </item>
-<item historyLabel="/Würfeln und Ziehen" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.SpielVorbereitet@State:jdt@e_class@src@src.domain.states.SpielVorbereitet"/>
 </item>
-<item historyLabel="/[Beschriftung]" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::label@label@sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.WissenstreiterGewaehlt@State:jdt@e_class@src@src.domain.states.WissenstreiterGewaehlt"/>
 </item>
-<item historyLabel="/call" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2uhzr3-ycwwym::sd20_message|1|call|79(design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39):sd20_message_container@design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@l2gqtvgo2ul20vgmpep@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-y8nsowgo2uiel0ykv0o6@-yrgd8ego2uhzr52pkp39:design@node@@@-yrgd8ego2uhzr52pkp39"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.KategorienBestimmt@State:jdt@e_class@src@src.domain.states.KategorienBestimmt"/>
 </item>
-<item historyLabel="/call" index="5">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgo2u5tnyjo709y::sd20_message|1|call|81(design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo):sd20_message_container@design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@l2gqtvgo2ucel1-di3b6x@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-y8nsowgo2u6ol9gft5ai@-yrgd8ego2u5to8taeheo:design@node@@@-yrgd8ego2u5to8taeheo"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.NameUndFarbeBestimmt@State:jdt@e_class@src@src.domain.states.NameUndFarbeBestimmt"/>
 </item>
-<item historyLabel="/[Kontrollablauf: [DecisionNode20] -&gt; [DecisionNode22]]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@link@@@ieje0rgo2qlisu-hsv7zp@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@l7v8cgo2qk33hwwdsx8@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/System-Use-Cases" index="1">
-<position model_uin="model:project::Modellierung" uin="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
+<item historyLabel="Zustandsautomat/DarfWuerfeln" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Würfeln und ziehen (bis)" index="2">
-<position model_uin="model:project::Modellierung" uin="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
+<item historyLabel="states/Implementierungsbeziehung" index="1">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgocuy4qy6819nf::jdt@l_impl@src@src.domain.states.NameUndFarbeBestimmt@State:jdt@e_class@src@src.domain.states.NameUndFarbeBestimmt"/>
 </item>
-<item historyLabel="/[Aktion]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@-qbjze4go2r8l25-2qftyu@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/DarfWuerfeln" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Controller" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spielerwechsel" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@bko2ugo2yfi9qucyv7s@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::label@label@design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@link@@@ieje0rgocxsgwsu93kqj@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/[Aktivitätsendknoten]" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@-5vj00pgo2rbfcd-ovdfup@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Controller" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaktp-tpocuk@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="SpielGestartet.java" index="2">
+<position info="not_deleted" x="244" y="0"/>
 </item>
-<item historyLabel="/ActivityFinalNode20" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@hl4qvgo2yfkig1rxvmm@-46k66rgo2qa45x-xfm408:design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/Spielsystem" index="2">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-b8dyjigo2q9km2-kfwpnu::design@node@@@a6k48rgo2qaq3ieaqjmf@-46k66rgo2qa45x-xfm408:design@node@@@-46k66rgo2qa45x-xfm408"/>
+<item historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@a7urugocxqz8gbnibnf@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item historyLabel="/System-Use-Cases" index="1">
-<position model_uin="model:project::Modellierung" uin="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
+<item historyLabel="Zustandsautomat/DarfWuerfeln" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@5vyregocxqz8f-l5rjwk@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
-<item active="true" historyLabel="WuerfelnUndZiehenHandler.java" index="6">
-<position info="not_deleted" x="221" y="0"/>
+<item active="true" historyLabel="Zustandsautomat/Region20" index="0">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-d9nhuogocudzb84ub0hd::design@node@@@-acitv2gocuee14-78194x@j8ctxygocuee0ygiut42:design@node@@@j8ctxygocuee0ygiut42"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -349,8 +379,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und ziehen (bis)" tooltip="Würfeln und ziehen (bis)">
-<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpielGestartet.java" tooltip="Modellierung/src/src/domain/states/SpielGestartet.java">
+<persistable path="/Modellierung/src/src/domain/states/SpielGestartet.java"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="states" tooltip="states">
+<persistable model="model:project::Modellierung" rc="design:view:::V1hexuhgocuy4qy6819nf"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
 <persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgo2uhzr3-ycwwym"/>
@@ -361,8 +394,11 @@
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Activity Diagram1" tooltip="Activity Diagram1">
 <persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2pg9vv-wt3e21"/>
 </file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Spiel starten und vorbereiten" tooltip="Spiel starten und vorbereiten">
-<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjignsw2tv6-75o95p"/>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Zustandsautomat" tooltip="Zustandsautomat">
+<persistable model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und ziehen (bis)" tooltip="Würfeln und ziehen (bis)">
+<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjigo2q9km2-kfwpnu"/>
 </file>
 <file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="System-Use-Cases" tooltip="System-Use-Cases">
 <persistable model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
@@ -387,12 +423,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Kategorie.java" tooltip="Modellierung/src/src/domain/question/Kategorie.java">
 <persistable path="/Modellierung/src/src/domain/question/Kategorie.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="I_Spiel_vorbereiten_und_Starten.java" tooltip="Modellierung/src/src/domain/core/I_Spiel_vorbereiten_und_Starten.java">
-<persistable path="/Modellierung/src/src/domain/core/I_Spiel_vorbereiten_und_Starten.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spiel_vorbereiten_und_Starten_Handler.java" tooltip="Modellierung/src/src/domain/core/Spiel_vorbereiten_und_Starten_Handler.java">
-<persistable path="/Modellierung/src/src/domain/core/Spiel_vorbereiten_und_Starten_Handler.java"/>
 </file>
 </mruList>
 </workbench>

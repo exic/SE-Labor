@@ -1,3 +1,0 @@
-package src.domain.core;
-public interface Wuerfeln_und_Ziehen_Handler {
-}

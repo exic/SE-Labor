@@ -1124,4 +1124,107 @@
 			</link>
 		</node>
 	</node>
+	<node uin="j8ctxygocuee0ygiut42">
+		<property name="$metaclass" value="StateMachine"/>
+		<property name="$name" value="Zustand Automat"/>
+		<node uin="k9ofrlgocueuo4eo17ub">
+			<property name="$metaclass" value="PseudoState20"/>
+			<property name="$kind" value="entryPoint"/>
+			<property name="$name" value="Start"/>
+			<link uin="ieje0rgocul210yp6bcb">
+				<property name="$metaclass" value="TransitionLink20"/>
+				<property name="label" value="starteSpiel"/>
+				<participant referencedUin="design:node:::k9ofrlgocueuo4eo17ub:j8ctxygocuee0ygiut42" role="Client"></participant>
+				<participant referencedUin="design:node:::-3uf15dgocuffax-s8z9b8:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-acitv2gocuee14-78194x">
+			<property name="$metaclass" value="Region20"/>
+			<property name="$name" value="Region20"/>
+			<node uin="-3uf15dgocufqgxwiar0c">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="NameUndFarbeBestimmt"/>
+				<node uin="-acitv2gocufqh1j6ohx2">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rgoculkre-gzfk3t">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="bestimmeNameUndFarbe[vollständig]"/>
+					<participant referencedUin="design:node:::-3uf15dgocufqgxwiar0c:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::5vyregocxqz8f-l5rjwk:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+				<link uin="ieje0rgoculyui-pmcfqw">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="bestimmeNameUndFarbe[unvollständig]"/>
+					<participant referencedUin="design:node:::-3uf15dgocufqgxwiar0c:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dgocufqgxwiar0c:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dgocufnuxq6efz6">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="KategorienBestimmt"/>
+				<node uin="-acitv2gocufnv2-sxo6jx">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rgocul856-r9ghc9">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="bestimmeNameUndFarbe"/>
+					<participant referencedUin="design:node:::-3uf15dgocufnuxq6efz6:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dgocufqgxwiar0c:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="-3uf15dgocuffax-s8z9b8">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="SpielGestartet"/>
+				<node uin="-acitv2gocuffb2-8ghaqf">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+					<property name="url" value="element://model:project::Modellierung/jdt:e_class:src:src.domain.states.SpielGestartet?V1hexuhgocuy4qy6819nf"/>
+					<property name="url" value="element://model:project::Modellierung/jdt:l_impl:src:src.domain.states.SpielGestartet:State"/>
+				</node>
+				<link uin="ieje0rgocul57c-ys5od8">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="bestimmeKategorie"/>
+					<participant referencedUin="design:node:::-3uf15dgocuffax-s8z9b8:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::-3uf15dgocufnuxq6efz6:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="5vyregocxqz8f-l5rjwk">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="DarfWuerfeln"/>
+				<node uin="a7urugocxqz8gbnibnf">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="ieje0rgocxsgwsu93kqj">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="WuerfelAktionStarten[6 und alle WS auf Feld oder keine 6 und mehr als 1 WS auf dem Feld]"/>
+					<participant referencedUin="design:node:::5vyregocxqz8f-l5rjwk:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::ds4pwgocxr1nb-6g1eej:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+				<link uin="ieje0rgocyin3eaiw09m">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="WuerfelAktionStarten[keine 6, weniger als 2 WS auf dem Feld]"/>
+					<participant referencedUin="design:node:::5vyregocxqz8f-l5rjwk:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::5vyregocxqz8f-l5rjwk:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+			</node>
+			<node uin="ds4pwgocxr1nb-6g1eej">
+				<property name="$metaclass" value="State20"/>
+				<property name="$name" value="WuerfelAktionGestartet"/>
+				<node uin="5ugadgocxr1nb-yqqudm">
+					<property name="$metaclass" value="Region20"/>
+					<property name="$name" value="Region20"/>
+				</node>
+				<link uin="301blgocxr1nb-25hlr7">
+					<property name="$metaclass" value="TransitionLink20"/>
+					<property name="label" value="WissenstreiterWaehlen"/>
+					<participant referencedUin="design:node:::ds4pwgocxr1nb-6g1eej:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Client"></participant>
+					<participant referencedUin="design:node:::5vyregocxqz8f-l5rjwk:-acitv2gocuee14-78194x:j8ctxygocuee0ygiut42" role="Supplier"></participant>
+				</link>
+			</node>
+		</node>
+	</node>
 </nodeSet>

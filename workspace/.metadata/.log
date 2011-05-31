@@ -1240,3 +1240,183 @@ org.eclipse.swt.SWTException: Device is disposed
 	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.doRun(ModelJob.java:102)
 	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.run(ModelJob.java:93)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2011-05-31 14:15:56.000 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.687
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.704
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.710
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.716
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.722
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.728
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.732
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.741
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.744
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.763
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.768
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.771
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.775
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.778
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.782
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.785
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.789
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.792
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.796
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.800
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.803
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.807
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.810
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.814
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.817
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:08.821
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.583
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.589
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.595
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.601
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.607
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.611
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.615
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.618
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:11.622
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:12.269
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:18.285
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:18.291
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:18.297
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:18.304
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:23.411
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:23.943
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:23.946
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:26.073
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:16:26.077
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-05-31 14:18:42.553
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:18:43.888
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:18:43.891
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 14:18:43.895
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-05-31 14:18:43.909
+!MESSAGE Lizenz läuft in 117 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 15:02:32.985
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 15:02:32.989
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_description in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-31 15:02:32.992
+!MESSAGE NLS unused message: WatchExpressionDialogMenu_1 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-05-31 17:09:18.324
+!MESSAGE Während "Asynchroner Modellbefehls-Scheduler" ist ein interner Fehler aufgetreten.
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4248)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJobRunner.doRun(ModelJobRunner.java:135)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.doRun(ModelJob.java:102)
+	at com.tssap.selena.model.platform.internal.eclipse.async.ModelJob.run(ModelJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

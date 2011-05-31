@@ -6,6 +6,9 @@
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.TypeSelectionComponent">
+		<item key="show_status_line" value="true"/>
+	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 		<item key="updateSimilarElements" value="false"/>
@@ -15,6 +18,10 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="width" value="480"/>
+		<item key="height" value="320"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

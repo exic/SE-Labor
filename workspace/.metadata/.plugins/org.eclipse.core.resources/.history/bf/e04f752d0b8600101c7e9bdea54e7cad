@@ -1,5 +1,0 @@
-package src.domain.core;
-public interface IWuerfelnUndZiehen {
-	public starteWuerfelaktion();
-	public waehleWissensstreiter(Wissenesstreiter wissensstreiter);
-}

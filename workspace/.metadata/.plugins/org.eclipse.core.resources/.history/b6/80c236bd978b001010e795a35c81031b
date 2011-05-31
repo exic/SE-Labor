@@ -1,0 +1,3 @@
+package src.domain.states;
+public class Idle implements State {
+}
