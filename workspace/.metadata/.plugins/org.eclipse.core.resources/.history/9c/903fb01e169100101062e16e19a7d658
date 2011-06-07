@@ -1,0 +1,11 @@
+package src.domain.field;
+
+public class Spielfeld {
+
+	/**
+	 * @associates src.domain.figure.Wissensstreiter
+	 * @directed directed
+	 * @supplierCardinality 0..12
+	 */
+	java.util.List lnkWissensstreiter = null;
+}

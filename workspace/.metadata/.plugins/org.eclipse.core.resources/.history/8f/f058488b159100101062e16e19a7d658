@@ -1,0 +1,5 @@
+package src.domain.core;
+public class Spielerliste {
+
+	src.domain.core.Spieler lnkSpieler;
+}

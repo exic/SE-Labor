@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="ba9i2gnlsan97ydk42k">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.ISpielVorbereitenUndStarten">
+			<property name="bounds" value="225,5,193,109"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$hidden" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.IWuerfelnUndZiehen">
+			<property name="bounds" value="5,245,174,94"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$hidden" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.SpielVorbereitenUndStartenHandler">
+			<property name="bounds" value="5,125,200,91"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:src.domain.core.SpielVorbereitenUndStartenHandler:ISpielVorbereitenUndStarten">
+				<property name="sourceAnchor" value="197,130"/>
+				<property name="targetAnchor" value="230,112"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.WuerfelnUndZiehenHandler">
+			<property name="bounds" value="5,5,186,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$hidden" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

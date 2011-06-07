@@ -19,10 +19,10 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
 	</section>
+	<section name="completion_proposal_size">
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item key="width" value="480"/>
 		<item key="height" value="320"/>
-	</section>
-	<section name="completion_proposal_size">
 	</section>
 </section>

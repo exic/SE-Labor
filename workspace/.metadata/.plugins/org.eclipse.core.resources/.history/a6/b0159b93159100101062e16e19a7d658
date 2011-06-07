@@ -1,0 +1,8 @@
+package src.domain.core;
+public class Spielerliste {
+
+	/**
+	 * @link composition
+	 */
+	src.domain.core.Spieler lnkSpieler = null;
+}

@@ -1,0 +1,5 @@
+package src.domain.core;
+
+import src.domain.field.Spielfeld;
+public class Spielsystem {
+}

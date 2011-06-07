@@ -1,0 +1,3 @@
+package src.domain.field;
+public class Spielfeld {
+}

@@ -1,0 +1,14 @@
+package src.domain.field;
+
+import src.domain.figure.Wissensstandsanzeiger;
+
+public class Spielfeld {
+
+	Wissensstandsanzeiger lnkWissensstandsanzeiger;
+	/**
+	 * @associates src.domain.figure.Wissensstreiter
+	 * @directed directed
+	 * @supplierCardinality 0..12
+	 */
+	java.util.List lnkWissensstreiter = null;
+}

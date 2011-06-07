@@ -5,5 +5,9 @@
 	<view uin="b3730gnlsann1-h0usx9">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.figure.Wissensstreiter">
+			<property name="bounds" value="0,0,114,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>
