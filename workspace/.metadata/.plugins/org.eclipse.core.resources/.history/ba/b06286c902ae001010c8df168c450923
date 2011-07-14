@@ -1,0 +1,11 @@
+package src.domain.states;
+
+public class State {
+	
+	private static Zustand state;
+
+	public static void setState(Zustand nState) {
+		state = nState;
+	}
+	
+}

@@ -6,6 +6,10 @@ import src.domain.question.Kategorie;
 
 public class SpielVorbereitenUndStartenHandler implements ISpielVorbereitenUndStarten {
 
+	public void initialize() {
+		return;
+	}
+
 	public void bestimmeKategorie(Kategorie kategorie1, Kategorie kategorie2,
 			Kategorie kategorie3, Kategorie kategorie4) {
 		// TODO Auto-generated method stub

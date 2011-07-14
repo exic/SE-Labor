@@ -7,11 +7,15 @@
 		<item key="ShowStatusLine" value="true"/>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_X_ORIGIN" value="508"/>
-			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 			<item key="DIALOG_Y_ORIGIN" value="105"/>
 			<item key="DIALOG_WIDTH" value="600"/>
 		</section>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.togethersoft.togetherxj.modeling.project.java20"/>
@@ -19,6 +23,10 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="com.togethersoft.togetherxj.uml.modeling"/>
 		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="489"/>
+		<item key="DIALOG_Y_ORIGIN" value="251"/>
 	</section>
 	<section name="ResourceNavigator">
 		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1302016649304"/>

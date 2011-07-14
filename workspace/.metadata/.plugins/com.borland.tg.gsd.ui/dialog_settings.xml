@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="GenerateSDWizard">
+		<section name="options">
+			<item key="exclude_messages_to_self" value="false"/>
+			<item key="create_hyperlinks" value="false"/>
+			<item key="create_multiple_diagrams" value="false"/>
+			<item key="depth_of_call_nesting" value="5"/>
+			<item key="show_multiple_diagrams" value="false"/>
+		</section>
+	</section>
+</section>

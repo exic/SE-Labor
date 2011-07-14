@@ -1,0 +1,16 @@
+package src.domain.figure;
+
+import java.awt.Color;
+
+public class Wissensstandsanzeiger implements IWissensstandsanzeiger {
+
+	public int getLevel() {
+		return level;
+	}
+
+	public void setLevel(int level) {
+		this.level = level;
+	}
+
+	private int level;
+}

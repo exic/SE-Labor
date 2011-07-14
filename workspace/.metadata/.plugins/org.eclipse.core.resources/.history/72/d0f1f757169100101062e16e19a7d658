@@ -1,5 +1,0 @@
-package src.domain.question;
-public class KategorieListe {
-
-	src.domain.question.Kategorie lnkKategorie;
-}

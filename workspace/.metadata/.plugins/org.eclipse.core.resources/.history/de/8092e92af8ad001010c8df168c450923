@@ -1,0 +1,9 @@
+package src.domain.core;
+public class Wuerfel implements IWuerfel {
+
+	public int getWuerfelzahl() {
+		return wuerfelzahl;
+	}
+
+	private int wuerfelzahl;
+}

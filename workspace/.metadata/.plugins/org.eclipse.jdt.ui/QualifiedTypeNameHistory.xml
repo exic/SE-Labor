@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="src.domain.question.Kategorie"/>
 <fullyQualifiedTypeName name="src.domain.core.IWuerfelnUndZiehen"/>
+<fullyQualifiedTypeName name="src.domain.core.ISpielVorbereitenUndStarten"/>
+<fullyQualifiedTypeName name="src.domain.states.Zustand"/>
 </qualifiedTypeNameHistroy>

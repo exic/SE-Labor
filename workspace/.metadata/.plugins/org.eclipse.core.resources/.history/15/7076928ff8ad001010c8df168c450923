@@ -1,0 +1,14 @@
+package src.domain.core;
+
+import java.awt.Color;
+
+import src.domain.figure.Wissensstreiter;
+import src.domain.question.Kategorie;
+
+public interface IApplication {
+	void starteSpiel(int modus, int spieleranzahl);
+	void bestimmeKategorien(Kategorie kategorie1, Kategorie kategorie2, Kategorie kategorie3, Kategorie kategorie4);
+	void bestimmeNameUndFarbe(String name, Color farbe);
+	int starteWuerfelaktion();
+	void waehleWissensstreiter(Wissensstreiter wissensstreiter);
+}

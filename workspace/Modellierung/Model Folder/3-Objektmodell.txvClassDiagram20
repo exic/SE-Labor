@@ -5,24 +5,15 @@
 	<view uin="V1hexuhgomyr0ty-l95afo">
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="$name" value="3-Objektmodell"/>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.Programm">
-			<property name="bounds" value="75,315,178,80"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$shortcutReference" value="true"/>
-			<reference referencedUin="jdt:l_ast:src:src.domain.core.Programm:lnkSpielsystem">
-				<property name="sourceAnchor" value="258,360"/>
-				<property name="targetAnchor" value="336,360"/>
-			</reference>
-		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Spieler">
 			<property name="bounds" value="600,35,158,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spieler:lnkWissensstreiter">
-				<property name="sourceAnchor" value="763,116"/>
-				<property name="targetAnchor" value="985,220"/>
+				<property name="sourceAnchor" value="763,118"/>
+				<property name="targetAnchor" value="954,200"/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.domain.core.Spieler:lnkWissensstreiter">
-					<property name="bounds" value="975,194,10,19"/>
+					<property name="bounds" value="944,174,10,19"/>
 				</reference>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spieler:lnkWissensstandsanzeiger">
@@ -46,13 +37,17 @@
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Spielsystem">
-			<property name="bounds" value="331,315,185,80"/>
+			<property name="bounds" value="331,315,195,121"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkSpielfeld">
-				<property name="sourceAnchor" value="521,360"/>
+				<property name="sourceAnchor" value="531,360"/>
 				<property name="targetAnchor" value="600,360"/>
 				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkKategorieListe">
+				<property name="sourceAnchor" value="500,441"/>
+				<property name="targetAnchor" value="500,460"/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkSpielerliste">
 				<property name="sourceAnchor" value="460,319"/>
@@ -62,16 +57,12 @@
 				<property name="location_set_by_user" value="true"/>
 			</reference>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkWuerfel">
-				<property name="sourceAnchor" value="360,400"/>
-				<property name="targetAnchor" value="360,460"/>
-			</reference>
-			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkKategorieListe">
-				<property name="sourceAnchor" value="500,400"/>
-				<property name="targetAnchor" value="500,460"/>
+				<property name="sourceAnchor" value="360,441"/>
+				<property name="targetAnchor" value="360,520"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Wuerfel">
-			<property name="bounds" value="215,455,165,80"/>
+			<property name="bounds" value="215,515,165,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 		</reference>
@@ -104,7 +95,7 @@
 			<property name="bounds_setted_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.figure.Wissensstreiter">
-			<property name="bounds" value="935,215,265,80"/>
+			<property name="bounds" value="935,195,265,100"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>

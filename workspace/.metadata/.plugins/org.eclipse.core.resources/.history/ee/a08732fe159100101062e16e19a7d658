@@ -1,5 +1,0 @@
-package src.domain.field;
-
-import src.domain.figure.Wissensstreiter;
-public class Spielfeld {
-}

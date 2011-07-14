@@ -1,0 +1,31 @@
+package src.domain.core;
+
+import java.awt.Color;
+
+
+public class Spieler implements ISpieler {
+
+	private Color farbe;
+	public Color getFarbe() {
+		return farbe;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	private String name;
+	/**
+	 * @associates src.domain.figure.Wissensstreiter
+	 * @directed directed
+	 * @supplierCardinality 3
+	 */
+	java.util.List lnkWissensstreiter = null;
+	/**
+	 * @associates src.domain.figure.Wissensstandsanzeiger
+	 * @directed directed
+	 * @supplierCardinality 4
+	 */
+	java.util.List lnkWissensstandsanzeiger = null;
+}

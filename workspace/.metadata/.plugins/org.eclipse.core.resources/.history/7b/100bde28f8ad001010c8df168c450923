@@ -1,0 +1,18 @@
+package src.domain.question;
+
+import java.awt.Color;
+
+public class Kategorie implements IKategorie {
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	private Color farbe;
+	private String name;
+
+}

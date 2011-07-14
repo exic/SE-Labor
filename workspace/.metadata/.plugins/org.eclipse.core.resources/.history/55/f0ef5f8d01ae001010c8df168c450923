@@ -1,0 +1,9 @@
+package src.domain.states;
+public enum Zustand {
+	Start,
+	DarfWuerfeln,
+	KategorienBestimmt,
+	NameUndFarbeBestimmt,
+	SpielGestartet,
+	WuerfelAktionGestartet
+}

@@ -1,0 +1,12 @@
+package src.domain.figure;
+
+import java.awt.Color;
+
+public class Wissensstreiter implements IWissensstreiter {
+
+	public int getPosition() {
+		return position;
+	}
+
+	private int position;
+}

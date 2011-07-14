@@ -1,5 +1,0 @@
-package src.domain.core;
-
-import src.domain.question.KategorieListe;
-public class Wuerfel extends KategorieListe {
-}

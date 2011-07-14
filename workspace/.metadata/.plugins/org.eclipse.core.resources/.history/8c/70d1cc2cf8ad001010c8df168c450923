@@ -1,0 +1,13 @@
+package src.domain.core;
+
+public class Spielsystem implements ISpielsystem {
+
+	public void setGewinner(Spieler gewinner) {
+		this.gewinner = gewinner;
+	}
+
+	src.domain.question.KategorieListe lnkKategorieListe = null;
+	src.domain.core.Wuerfel lnkWuerfel = null;
+	src.domain.core.Spielerliste lnkSpielerliste = null;
+	src.domain.field.Spielfeld lnkSpielfeld = null;
+}

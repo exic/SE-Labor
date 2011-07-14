@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkgq3ijlcb2urrsu">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8egq3ijlbq-vol9e2"/>
+		<property name="$name" value="src.domain.core.SpielVorbereitenUndStartenHandler.operations"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8egq3ijlbq-vol9e2">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="5,5,551,340"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:node:::-y8nsowgq3io7hm7zoz3t:-yrgd8egq3ijlbq-vol9e2">
+				<property name="bounds" value="385,5,60,300"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowgq3ijlbuck9f20:-yrgd8egq3ijlbq-vol9e2">
+				<property name="bounds" value="65,5,60,303"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvgq3ijlbx-ihz7a1:-y8nsowgq3ijlbuck9f20:-yrgd8egq3ijlbq-vol9e2">
+					<property name="bounds" value="20,19,20,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::l2gqtvgq3ijlby-c6vxof:-yrgd8egq3ijlbq-vol9e2">
+				<property name="bounds" value="17,76,16,16"/>
+				<reference referencedUin="sd20_message_container:design:node:::l2gqtvgq3ijlby-c6vxof:-yrgd8egq3ijlbq-vol9e2">
+					<property name="bounds" value="-22,-78,0,0"/>
+					<reference referencedUin="sd20_message|1|call|60(design:node:::l2gqtvgq3ijlby-c6vxof:-yrgd8egq3ijlbq-vol9e2)">
+						<property name="sourceAnchor" value="40,116"/>
+						<property name="targetAnchor" value="100,116"/>
+					</reference>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+	<link uin="ieje0rgq3ijlcdkyhy02">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkgq3ijlcb2urrsu" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8egq3ijlbq-vol9e2" role="Supplier"></participant>
+	</link>
+</nodeSet>

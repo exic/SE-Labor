@@ -1,0 +1,37 @@
+package src.domain.core;
+
+import java.awt.Color;
+
+import src.domain.question.Kategorie;
+
+public class Spielsystem implements ISpielVorbereitenUndStarten{
+
+	src.domain.question.KategorieListe lnkKategorieListe = null;
+	src.domain.core.Wuerfel lnkWuerfel = null;
+	src.domain.core.Spielerliste lnkSpielerliste = null;
+	src.domain.field.Spielfeld lnkSpielfeld = null;
+	public void initialize() {
+		//  generiert von Together		
+		return;
+}
+	public void bestimmeKategorie(Kategorie kategorie1, Kategorie kategorie2,
+			Kategorie kategorie3, Kategorie kategorie4) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void bestimmeNameUndFarbe(String name, Color farbe) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void starteSpiel(int modus, int spieleranzahl) {
+		//  generiert von Together
+		src.domain.field.Spielfeld b = null;
+		src.domain.states.State state = null;		
+		// Nachricht #1.1 für this:Spielsystem
+		this.initialize();
+		// Nachricht #1.2 für b:src.domain.field.Spielfeld
+		b = new src.domain.field.Spielfeld();
+		// Nachricht #1.3 für null:src.domain.states.State
+		src.domain.states.State.setState(Zustand.Spielgestartet);
+}
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkgq3idz9y-20lo2j">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8egq3idz7q-x244db"/>
+		<property name="$name" value="src.domain.core.SpielVorbereitenUndStartenHandler.operations"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8egq3idz7q-x244db">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="15,15,651,337"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:node:::-y8nsowgq3idz831fp3mw:-yrgd8egq3idz7q-x244db">
+				<property name="bounds" value="95,5,60,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvgq3idz919qoq8h:-y8nsowgq3idz831fp3mw:-yrgd8egq3idz7q-x244db">
+					<property name="bounds" value="20,16,20,24"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::l2gqtvgq3idz92bfdupv:-yrgd8egq3idz7q-x244db">
+				<property name="bounds" value="47,73,16,16"/>
+				<reference referencedUin="sd20_message_container:design:node:::l2gqtvgq3idz92bfdupv:-yrgd8egq3idz7q-x244db">
+					<property name="bounds" value="0,0,0,0"/>
+					<reference referencedUin="sd20_message|1|call|59(design:node:::l2gqtvgq3idz92bfdupv:-yrgd8egq3idz7q-x244db)">
+						<property name="sourceAnchor" value="80,123"/>
+						<property name="targetAnchor" value="140,123"/>
+						<reference referencedUin="sd20_message_label:sd20_message|1|call|59(design:node:::l2gqtvgq3idz92bfdupv:-yrgd8egq3idz7q-x244db)">
+							<property name="bounds" value="50,108,187,15"/>
+						</reference>
+					</reference>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+	<link uin="ieje0rgq3idzav-osxo60">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkgq3idz9y-20lo2j" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8egq3idz7q-x244db" role="Supplier"></participant>
+	</link>
+</nodeSet>

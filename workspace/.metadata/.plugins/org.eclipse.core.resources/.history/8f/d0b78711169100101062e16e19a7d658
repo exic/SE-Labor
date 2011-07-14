@@ -1,5 +1,0 @@
-package src.domain.core;
-
-import src.domain.figure.Wissensstandsanzeiger;
-public class Spieler {
-}

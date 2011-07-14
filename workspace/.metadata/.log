@@ -4726,3 +4726,2162 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2011-06-21 14:08:04.435 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.008
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.027
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.030
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.034
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.037
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.041
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.044
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.061
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.082
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.085
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.089
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.093
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.096
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.099
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.103
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.106
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.110
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.113
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.117
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.120
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.123
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.127
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.131
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.134
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.137
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:24.141
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.024
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.028
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.031
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.035
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.038
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.042
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.045
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.048
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:29.051
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:08:30.653
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-06-21 14:11:06.467
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:08.054
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:08.058
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:08.062
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-06-21 14:11:08.188
+!MESSAGE Lizenz läuft in 96 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:11.532
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:11.535
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:26.194
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:26.214
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:26.218
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:26.221
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:29.109
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:29.383
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 14:11:29.403
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+!SESSION 2011-06-21 16:14:08.574 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.106
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.122
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.128
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.134
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.140
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.146
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.151
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.163
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.184
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.187
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.197
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.200
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.203
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.207
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.211
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.215
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.218
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.221
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.224
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.228
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.231
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.235
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.238
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.242
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.245
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:18.248
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.333
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.337
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.340
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.344
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.348
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.351
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.355
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.359
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:22.363
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:14:23.898
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-06-21 16:15:13.145
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:13.586
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:13.589
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:13.594
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-06-21 16:15:13.644
+!MESSAGE Lizenz läuft in 95 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:15.653
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:15.667
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:30.440
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:30.456
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:30.459
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:30.465
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:32.495
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:32.767
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-21 16:15:32.771
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+!SESSION 2011-06-28 13:27:52.258 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-06-28 13:27:54.854
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.645
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.649
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.652
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.656
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.660
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.663
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.672
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.675
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.679
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.683
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.687
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.690
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.693
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.697
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.700
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.704
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.707
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.710
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.714
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.717
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.720
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.724
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.727
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.731
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.734
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:55.737
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.373
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.377
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.380
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.383
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.387
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.390
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.393
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.397
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.400
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.619
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.887
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:27:56.891
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-06-28 13:28:12.555
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:12.756
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:12.760
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:12.763
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-06-28 13:28:12.779
+!MESSAGE Lizenz läuft in 89 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:17.487
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:17.495
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:17.498
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:17.501
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:17.587
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:27.797
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:28:27.801
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+!SESSION 2011-06-28 13:53:06.044 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product -product com.borland.modeling.product -data C:\Users\sylvain\workspace\LaborSwE\Labor-SE\workspace -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.678
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.682
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.686
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.689
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.693
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.696
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.720
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.723
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.726
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.730
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.734
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.737
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.741
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.744
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.747
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.750
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.754
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.757
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.761
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.765
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.768
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.771
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.774
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.778
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.781
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:08.784
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.343
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.346
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.350
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.353
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.357
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.360
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.364
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.367
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.371
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:09.573
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-06-28 13:53:24.427
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:24.657
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:24.660
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:24.664
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-06-28 13:53:24.681
+!MESSAGE Lizenz läuft in 89 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:26.332
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:26.336
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:38.901
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:38.904
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:38.908
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:38.912
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:38.960
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:39.142
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 13:53:39.145
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+!SESSION 2011-06-28 14:22:40.527 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product -product com.borland.modeling.product -data C:\Users\sylvain\workspace\LaborSwE\Labor-SE\workspace -product com.borland.modeling.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.667
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.671
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.674
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.677
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.681
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.689
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.708
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.711
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.714
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.717
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.722
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.725
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.728
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.731
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.735
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.738
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.741
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.744
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.748
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.751
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.754
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.757
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.761
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.764
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.767
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:43.771
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.501
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.505
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.509
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.512
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.515
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.518
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.522
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.526
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.529
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:22:44.755
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-06-28 14:23:01.065
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:01.486
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:01.494
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:01.498
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-06-28 14:23:01.522
+!MESSAGE Lizenz läuft in 89 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:03.580
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:03.596
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:21.518
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:21.522
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:21.525
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:21.529
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:22.362
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:58.800
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:23:58.804
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:24:53.874
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:24:53.878
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_description in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:24:53.881
+!MESSAGE NLS unused message: WatchExpressionDialogMenu_1 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:31:34.306
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_version_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 14:31:34.309
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_method_in_type in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.116
+!MESSAGE NLS unused message: CleanUpRegistry_ErrorTabPage_preview in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.121
+!MESSAGE NLS unused message: CleanUpRegistry_UnknownInitializerKind_errorMessage in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.124
+!MESSAGE NLS unused message: CleanUpRegistry_WrongKindForConfigurationUI_error in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.128
+!MESSAGE NLS unused message: CleanUpPostSaveListener_SlowCleanUpDialog_link in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.132
+!MESSAGE NLS unused message: CleanUpPostSaveListener_SlowCleanUpDialog_title in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-06-28 15:01:23.136
+!MESSAGE NLS unused message: CleanUpPostSaveListener_SlowCleanUpWarningDialog_explain in: org.eclipse.jdt.internal.corext.fix.FixMessages
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 15:30:06.057
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Integer {key=Ljava/lang/Integer;} [in Integer.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:552)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:509)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:494)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:552)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:509)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:494)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 15:30:06.058
+!MESSAGE Das zugeordnete Javadoc für Integer {key=Ljava/lang/Integer;} [in Integer.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:552)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:509)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:494)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 15:31:24.036
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Color [in Color.class [in java.awt [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 15:31:24.036
+!MESSAGE Das zugeordnete Javadoc für Color [in Color.class [in java.awt [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 15:45:37.809
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Process [in Process.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 15:45:37.809
+!MESSAGE Das zugeordnete Javadoc für Process [in Process.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:971)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 15:50:53.224
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Enum [in Enum.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 15:50:53.225
+!MESSAGE Das zugeordnete Javadoc für Enum [in Enum.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 15:50:53.847
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Object [in Object.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 15:50:53.847
+!MESSAGE Das zugeordnete Javadoc für Object [in Object.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2011-06-28 16:05:20.381
+!MESSAGE Interner Fehler
+!STACK 1
+Java Model Exception: Java Model Status [Das zugeordnete Javadoc für Object [in Object.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:796)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2011-06-28 16:05:20.381
+!MESSAGE Das zugeordnete Javadoc für Object [in Object.class [in java.lang [in C:\Borland\Together\jre\lib\rt.jar]]]java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:751)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1059)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:558)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:98)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:510)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ kann nicht abgerufen werden
+
+!ENTRY org.eclipse.jface 4 2 2011-06-28 16:25:23.369
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+!SESSION 2011-07-14 10:41:35.323 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.borland.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-07-14 10:41:47.139
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.451
+!MESSAGE NLS unused message: Shortcuts_shortcutTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.454
+!MESSAGE NLS unused message: Shortcuts_selectShortcutsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.458
+!MESSAGE NLS unused message: Shortcuts_availableMenus in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.461
+!MESSAGE NLS unused message: Shortcuts_availableCategories in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.465
+!MESSAGE NLS unused message: Shortcuts_allShortcuts in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.469
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_dialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.477
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_switchToCommandGroupTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.481
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_unavailableChildrenText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.484
+!MESSAGE NLS unused message: HideItemsCannotMakeVisible_expandItemText in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.489
+!MESSAGE NLS unused message: HideMenuItems_menuItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.492
+!MESSAGE NLS unused message: HideMenuItems_chooseMenuItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.496
+!MESSAGE NLS unused message: HideMenuItems_menuStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.499
+!MESSAGE NLS unused message: HideToolBarItems_toolBarItemsTab in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.502
+!MESSAGE NLS unused message: HideToolBarItems_chooseToolBarItemsLabel in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.506
+!MESSAGE NLS unused message: HideToolBarItems_toolBarStructure in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.509
+!MESSAGE NLS unused message: FilteredTree_AccessibleListenerClearButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.513
+!MESSAGE NLS unused message: Util_listNull in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.516
+!MESSAGE NLS unused message: DecoratorError in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.520
+!MESSAGE NLS unused message: DecoratorWillBeDisabled in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.523
+!MESSAGE NLS unused message: ErrorLogUtil_ShowErrorLog in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.526
+!MESSAGE NLS unused message: Perspective_couldNotBeFound in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.530
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogMessage in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.533
+!MESSAGE NLS unused message: OpenBrowserHandler_NoInfoDialogTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.537
+!MESSAGE NLS unused message: AboutDialog_DetailsButton in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.540
+!MESSAGE NLS unused message: AboutFeaturesDialog_SimpleTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:49.543
+!MESSAGE NLS unused message: InstallationDialog_ShellTitle in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.146
+!MESSAGE NLS unused message: OpenResourceDialog_openButton_text in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.149
+!MESSAGE NLS unused message: OpenResourceDialog_openWithMenu_label in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.153
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.156
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_IUHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.160
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundleHeader in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.163
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_bundle in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.167
+!MESSAGE NLS unused message: ConfigurationLogUpdateSection_timestamp in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.170
+!MESSAGE NLS unused message: CleanDialog_cleanSelectedTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.174
+!MESSAGE NLS unused message: CleanDialog_cleanAllTaskName in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:41:52.976
+!MESSAGE NLS unused message: InternalError in: org.eclipse.ui.internal.progress.messages
+
+!ENTRY com.borland.sanctuary.client.gateway 1 1 2011-07-14 10:43:44.024
+!MESSAGE [!!SantLicenseController!!] creating new named slip manager instance: 1
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:43:45.554
+!MESSAGE NLS unused message: LicenseModelImpl_permKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:43:45.558
+!MESSAGE NLS unused message: LicenseModelImpl_unregKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:43:45.562
+!MESSAGE NLS unused message: LicenseModelImpl_tempKey in: com.borland.sanctuary.client.gateway.impl.messages
+
+!ENTRY com.borland.csf.license 1 1 2011-07-14 10:43:45.634
+!MESSAGE Lizenz läuft in 73 Tagen ab
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:43:49.015
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_0 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:43:49.019
+!MESSAGE NLS unused message: ExecutionEnvironmentDescription_1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:44:19.431
+!MESSAGE NLS unused message: GenerateToStringDialog_methods_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:44:19.434
+!MESSAGE NLS unused message: GenerateToStringDialog_fields_node in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:44:19.438
+!MESSAGE NLS unused message: GenerateToStringDialog_dialog_title in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:44:19.441
+!MESSAGE NLS unused message: GenerateToStringDialog_newTemplateName in: org.eclipse.jdt.internal.ui.JavaUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:44:19.735
+!MESSAGE NLS unused message: GenerateToStringAction_error_caption in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:55:06.611
+!MESSAGE NLS unused message: DeleteWorkingSet_Hide in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 10:55:06.630
+!MESSAGE NLS unused message: DeleteWorkingSet_Remove in: org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 11:07:37.532
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 11:07:37.535
+!MESSAGE NLS unused message: ToggleBreakpointsTargetManager_defaultToggleTarget_description in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 11:07:37.539
+!MESSAGE NLS unused message: WatchExpressionDialogMenu_1 in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:12:46.059
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.ElementImpl.modifyProperty(ElementImpl.java:1064)
+	at com.tssap.selena.impl.model.elements.ElementImpl.setPropertyValue(ElementImpl.java:633)
+	at com.tssap.selena.impl.model.elements.EntityImpl.setPropertyValue(EntityImpl.java:88)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.MessageInplaceApllier.applyValue(MessageInplaceApllier.java:34)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Argumente müssen die folgende Form haben: arguments::=argument[',' arguments] argument::=[parameter-name'=']argument-value | attribute'='out-parameter-name [':'argument-value] | '-'
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.MessageArgumentsProvider.canSetPropertyValue(MessageArgumentsProvider.java:43)
+	at com.tssap.selena.impl.model.elements.processor.SetProperty$SetProviderProcessor.canPerformCommonProvider(SetProperty.java:25)
+	at com.tssap.selena.impl.model.elements.processor.PropertyProviderProcessor.canPerform(PropertyProviderProcessor.java:41)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.getProvidersStatus(ModelOperationProcessorBase.java:111)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.checkCanModify(ModelOperationProcessorBase.java:34)
+	at com.tssap.selena.impl.model.elements.ElementImpl.checkCanModify(ElementImpl.java:1075)
+	at com.tssap.selena.impl.model.elements.ElementImpl.canModifyProperty(ElementImpl.java:1046)
+	at com.tssap.selena.impl.model.elements.ElementImpl.canSetPropertyValue(ElementImpl.java:605)
+	at com.borland.tg.uml20.interaction.internal.providers.message.MessagePropertyProvider.canSetPropertyValue(MessagePropertyProvider.java:147)
+	at com.tssap.selena.impl.model.elements.processor.SetProperty$SetProviderProcessor.canPerformCommonProvider(SetProperty.java:25)
+	at com.tssap.selena.impl.model.elements.processor.PropertyProviderProcessor.canPerform(PropertyProviderProcessor.java:41)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 45 more
+Caused by: com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.ParseException: Encountered ":" at line 1, column 6.
+Was expecting one of:
+    <EOF> 
+    "," ...
+    "=" ...
+    
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.generateParseException(MessageArguments.java:346)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.jj_consume_token(MessageArguments.java:229)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.Arguments(MessageArguments.java:31)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.parse(MessageArguments.java:8)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.ArgumentsFactory.parse(ArgumentsFactory.java:13)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.MessageArgumentsProvider.canSetPropertyValue(MessageArgumentsProvider.java:38)
+	... 56 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:13:26.254
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.ElementImpl.modifyProperty(ElementImpl.java:1064)
+	at com.tssap.selena.impl.model.elements.ElementImpl.setPropertyValue(ElementImpl.java:633)
+	at com.tssap.selena.impl.model.elements.EntityImpl.setPropertyValue(EntityImpl.java:88)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.MessageInplaceApllier.applyValue(MessageInplaceApllier.java:34)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Argumente müssen die folgende Form haben: arguments::=argument[',' arguments] argument::=[parameter-name'=']argument-value | attribute'='out-parameter-name [':'argument-value] | '-'
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.MessageArgumentsProvider.canSetPropertyValue(MessageArgumentsProvider.java:43)
+	at com.tssap.selena.impl.model.elements.processor.SetProperty$SetProviderProcessor.canPerformCommonProvider(SetProperty.java:25)
+	at com.tssap.selena.impl.model.elements.processor.PropertyProviderProcessor.canPerform(PropertyProviderProcessor.java:41)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.getProvidersStatus(ModelOperationProcessorBase.java:111)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.checkCanModify(ModelOperationProcessorBase.java:34)
+	at com.tssap.selena.impl.model.elements.ElementImpl.checkCanModify(ElementImpl.java:1075)
+	at com.tssap.selena.impl.model.elements.ElementImpl.canModifyProperty(ElementImpl.java:1046)
+	at com.tssap.selena.impl.model.elements.ElementImpl.canSetPropertyValue(ElementImpl.java:605)
+	at com.borland.tg.uml20.interaction.internal.providers.message.MessagePropertyProvider.canSetPropertyValue(MessagePropertyProvider.java:147)
+	at com.tssap.selena.impl.model.elements.processor.SetProperty$SetProviderProcessor.canPerformCommonProvider(SetProperty.java:25)
+	at com.tssap.selena.impl.model.elements.processor.PropertyProviderProcessor.canPerform(PropertyProviderProcessor.java:41)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 45 more
+Caused by: com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.ParseException: Encountered ":" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    "," ...
+    "=" ...
+    
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.generateParseException(MessageArguments.java:346)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.jj_consume_token(MessageArguments.java:229)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.Arguments(MessageArguments.java:31)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.MessageArguments.parse(MessageArguments.java:8)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.arguments.ArgumentsFactory.parse(ArgumentsFactory.java:13)
+	at com.borland.tg.uml20.interaction.internal.providers.message.signature.MessageArgumentsProvider.canSetPropertyValue(MessageArgumentsProvider.java:38)
+	... 56 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:26:27.825
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:26:42.963
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:27:52.979
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:29:03.272
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:29:11.485
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Property operation failed
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.extensions.ParameterNodeProvider.canCreateUniqueName(ParameterNodeProvider.java:219)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:40:07.559
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.jface 4 2 2011-07-14 11:40:21.498
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+com.tssap.selena.model.errorinfo.ModelChangeException
+	at com.tssap.selena.model.errorinfo.ModelChangeException.fromStatus(ModelChangeException.java:42)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:70)
+	at com.tssap.selena.impl.model.elements.ElementImpl.performModification(ElementImpl.java:1080)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:965)
+	at com.tssap.selena.model.platform.eclipse.team.Hook$EntityCreation.createUniqueName(Hook.java:83)
+	at com.tssap.selena.impl.model.elements.EntityImpl.createChildEntity(EntityImpl.java:955)
+	at com.borland.tg.uml20.interaction.internal.inspector.ce.ChangeLifelineIdentUISupport.applyChange(ChangeLifelineIdentUISupport.java:72)
+	at com.borland.tg.uml20.interaction.internal.viewmap.inplace.LifelineInplaceApplier.applyValue(LifelineInplaceApplier.java:31)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor$1.run(PreservingSelectionInplaceEditor.java:62)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.showBusyIndicator(EclipsePlatform.java:285)
+	at com.tssap.selena.model.platform.internal.eclipse.EclipsePlatform.runCommand(EclipsePlatform.java:224)
+	at com.tssap.selena.impl.model.elements.ModelSetup.runCommandObject(ModelSetup.java:104)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:150)
+	at com.tssap.selena.model.elements.ModelAccess.runCommand(ModelAccess.java:137)
+	at com.borland.tg.gde.internal.inplace.PreservingSelectionInplaceEditor.applyEditorValue(PreservingSelectionInplaceEditor.java:57)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:333)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:880)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:331)
+	at org.eclipse.jface.viewers.TextCellEditor.handleDefaultSelection(TextCellEditor.java:295)
+	at org.eclipse.jface.viewers.TextCellEditor$1.widgetDefaultSelected(TextCellEditor.java:148)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: com.tssap.selena.model.errorinfo.ModelChangeException: Not applicable
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:28)
+	at com.tssap.selena.model.errorinfo.Status.<init>(Status.java:24)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:56)
+	at com.tssap.selena.model.errorinfo.Status.newTechnical(Status.java:52)
+	at com.borland.tg.modeling.java.uml20.providers.templates.SignatureNodeProvider.canCreateUniqueName(SignatureNodeProvider.java:60)
+	at com.tssap.selena.impl.model.elements.processor.CreateChildEntity$CreateProvidersProcessor.canPerform(CreateChildEntity.java:50)
+	at com.tssap.selena.impl.model.elements.processor.ModelOperationProcessorBase.performModification(ModelOperationProcessorBase.java:52)
+	... 46 more
+
+!ENTRY org.eclipse.help.base 4 0 2011-07-14 11:42:08.681
+!MESSAGE index/indexed_dependencies file missing from help index "index" of plugin org.eclipse.m2m.qvt.oml.doc
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 12:10:20.087
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_version_section in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-07-14 12:10:20.111
+!MESSAGE NLS unused message: JavaDoc2HTMLTextReader_method_in_type in: org.eclipse.jdt.internal.ui.text.javadoc.JavaDocMessages
+
+!ENTRY org.eclipse.ui.workbench 4 2 2011-07-14 12:38:19.569
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.borland.tg.gde.diagram.MementoUtil.saveReferenceCollection(MementoUtil.java:13)
+	at com.borland.tg.gde.internal.ui.part.DiagramEditorInput$Good.saveState(DiagramEditorInput.java:125)
+	at org.eclipse.ui.internal.EditorHistoryItem.saveState(EditorHistoryItem.java:222)
+	at org.eclipse.ui.internal.EditorHistory.saveState(EditorHistory.java:152)
+	at org.eclipse.ui.internal.Workbench.saveState(Workbench.java:2424)
+	at org.eclipse.ui.internal.Workbench.recordWorkbenchState(Workbench.java:2033)
+	at org.eclipse.ui.internal.Workbench.access$11(Workbench.java:2030)
+	at org.eclipse.ui.internal.Workbench$15.run(Workbench.java:883)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:881)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:838)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1082)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1080)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1052)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:719)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:307)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1643)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3789)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)

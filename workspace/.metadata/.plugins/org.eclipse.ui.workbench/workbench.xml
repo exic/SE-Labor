@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="145" version="2.0">
+<workbench progressCount="148" version="2.0">
 <workbenchAdvisor/>
 <window height="860" maximized="true" width="800" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -20,14 +20,14 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="213" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1302016649304" focus="true" label="Arbeitsbereich - Modellierung">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
-<info part="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -35,39 +35,24 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.internal.EditorStack@8ad116" ratio="0.83776593" ratioLeft="630" ratioRight="122" relationship="4" relative="org.eclipse.ui.internal.EditorStack@1cc83fe">
-<folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.borland.tg.gde.diagramEditor" name="3-starteSpiel" partName="3-starteSpiel" title="3-starteSpiel" tooltip="3-starteSpiel" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<editor id="com.borland.tg.gde.diagramEditor" name="Zustandsautomat" partName="Zustandsautomat" title="Zustandsautomat" tooltip="Zustandsautomat" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
+</editor>
+<editor id="com.borland.tg.gde.diagramEditor" name="3-starteSpiel" partName="3-starteSpiel" title="3-starteSpiel" tooltip="3-starteSpiel" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomtqnbt3wc44e"/>
 </editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="3-bestimmeNameUndFarbe" partName="3-bestimmeNameUndFarbe" title="3-bestimmeNameUndFarbe" tooltip="3-bestimmeNameUndFarbe" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomvu9ob-aue5az"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="3-starteWuerfelaktion" partName="3-starteWuerfelaktion" title="3-starteWuerfelaktion" tooltip="3-starteWuerfelaktion" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
-</editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="3-waehleWissensstreiter" partName="3-waehleWissensstreiter" title="3-waehleWissensstreiter" tooltip="3-waehleWissensstreiter" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<editor id="com.borland.tg.gde.diagramEditor" name="3-waehleWissensstreiter" partName="3-waehleWissensstreiter" title="3-waehleWissensstreiter" tooltip="3-waehleWissensstreiter" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomy252jbw0v49"/>
 </editor>
-<editor id="com.borland.tg.gde.diagramEditor" name="3-bestimmeKategorien" partName="3-bestimmeKategorien" title="3-bestimmeKategorien" tooltip="3-bestimmeKategorien" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
-<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomvo0dd-h1i87o"/>
+<editor id="com.borland.tg.gde.diagramEditor" name="3-starteWuerfelaktion" partName="3-starteWuerfelaktion" title="3-starteWuerfelaktion" tooltip="3-starteWuerfelaktion" workbook="DefaultEditorWorkbook">
+<input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
 </editor>
-<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="3-Objektmodell" partName="3-Objektmodell" title="3-Objektmodell" tooltip="3-Objektmodell" workbook="org.eclipse.ui.internal.EditorStack@1cc83fe">
+<editor activePart="true" focus="true" id="com.borland.tg.gde.diagramEditor" name="3-Objektmodell" partName="3-Objektmodell" title="3-Objektmodell" tooltip="3-Objektmodell" workbook="DefaultEditorWorkbook">
 <input factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" model="model:project::Modellierung" rc="design:view:::V1hexuhgomyr0ty-l95afo"/>
-</editor>
-<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spielerliste.java" partName="Spielerliste.java" path="C:/Users/sylvain/workspace/LaborSwE/Labor-SE/workspace/Modellierung/src/src/domain/core/Spielerliste.java" title="Spielerliste.java" tooltip="Modellierung/src/src/domain/core/Spielerliste.java" workbook="org.eclipse.ui.internal.EditorStack@8ad116">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Modellierung/src/src/domain/core/Spielerliste.java"/>
-<editorState selectionLength="0" selectionOffset="0"/>
 </editor>
 </editors>
 <views>
@@ -81,15 +66,9 @@
 <viewState linkWithEditor="false">
 <expanded>
 <element element="model:project::Modellierung" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src/domain" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src/domain/core" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src/domain/field" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src/domain/figure" model="model:project::Modellierung"/>
-<element element="com.tssap.selena.Resource:folder::src/domain/question" model="model:project::Modellierung"/>
 </expanded>
 <selection>
-<element element="jdt:e_class:src:src.domain.question.KategorieListe" model="model:project::Modellierung"/>
+<element element="design:view:::V1hexuhgomyr0ty-l95afo" model="model:project::Modellierung"/>
 </selection>
 </viewState>
 </view>
@@ -201,163 +180,64 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V1hexuhgomyr0ty-l95afo"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V1hexuhgnlrkidjlh8bc5"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
 <editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomtqnbt3wc44e"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomvu9ob-aue5az"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
 <editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomy252jbw0v49"/>
-<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomvo0dd-h1i87o"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Modellierung/src/src/domain/core/Spielerliste.java"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
+<editor factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" model="model:project::Modellierung" rc="design:view:::V1hexuhgomyr0ty-l95afo"/>
 </editors>
-<item historyLabel="3-Objektmodell/null" index="0">
-<position/>
+<item historyLabel="/Modellierung" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::V1hexuhgnlrkidjlh8bc5"/>
 </item>
-<item historyLabel="3-starteWuerfelaktion/null" index="3">
-<position/>
+<item historyLabel="Zustandsautomat/Zustandsautomat" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-d9nhuogocudzb84ub0hd"/>
 </item>
-<item historyLabel="3-starteSpiel/null" index="1">
-<position/>
+<item historyLabel="3-starteSpiel/3-starteSpiel" index="2">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgomtqnbt3wc44e"/>
 </item>
-<item historyLabel="3-bestimmeNameUndFarbe/null" index="2">
-<position/>
+<item historyLabel="3-waehleWissensstreiter/3-waehleWissensstreiter" index="3">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgomy252jbw0v49"/>
 </item>
-<item historyLabel="3-starteSpiel/null" index="1">
-<position/>
+<item historyLabel="3-starteWuerfelaktion/3-starteWuerfelaktion" index="4">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
 </item>
-<item historyLabel="3-starteWuerfelaktion/null" index="3">
-<position/>
+<item historyLabel="3-starteWuerfelaktion/StateInvariant1" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgomwq8ohc8w7vc::design@node@@@n68rpbgp6xb57g-173p1u@7x5rzxgp6x9hhh-c1to9n@7x5rzxgp6x9hgz-kxk85b@7x5rzxgomxqg87-fpxlcd@7x5rzxgomxqg7r-4h7lvs@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgp6x9hhh-c1to9n@7x5rzxgp6x9hgz-kxk85b@7x5rzxgomxqg87-fpxlcd@7x5rzxgomxqg7r-4h7lvs@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgp6x9hgz-kxk85b@7x5rzxgomxqg87-fpxlcd@7x5rzxgomxqg7r-4h7lvs@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxqg87-fpxlcd@7x5rzxgomxqg7r-4h7lvs@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxqg7r-4h7lvs@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxbc9x-ofx798@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxbc9d-8j4fxq@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxaj5bpej7t1@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@7x5rzxgomxaj4qe9spl8@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@-y8nsowgomwt9jqjylj4j@-yrgd8egomwq8oj-qds6da:design@node@@@-yrgd8egomwq8oj-qds6da"/>
 </item>
-<item historyLabel="3-waehleWissensstreiter/null" index="4">
-<position/>
+<item historyLabel="3-starteWuerfelaktion/SD20_InteractionOperand1" index="4">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@Vam8ynkgomwq8ohc8w7vc::design@node@@@-yp8yhgp6x9hhe8jv253@7chx8lgp6x9hgvmtn3ze@-yp8yhgomxqg84-lbw455@7chx8lgomxqg7m-h5t9xq@-yp8yhgomxbc9t2gyevo@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@7chx8lgp6x9hgvmtn3ze@-yp8yhgomxqg84-lbw455@7chx8lgomxqg7m-h5t9xq@-yp8yhgomxbc9t2gyevo@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@-yp8yhgomxqg84-lbw455@7chx8lgomxqg7m-h5t9xq@-yp8yhgomxbc9t2gyevo@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@7chx8lgomxqg7m-h5t9xq@-yp8yhgomxbc9t2gyevo@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@-yp8yhgomxbc9t2gyevo@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@7chx8lgomxbc98sqm0hv@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@-yp8yhgomxaj58uhxjwm@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@7chx8lgomxaj4k-zh0kh@-yrgd8egomwq8oj-qds6da:design@node@@@-yrgd8egomwq8oj-qds6da"/>
 </item>
-<item historyLabel="3-bestimmeKategorien/null" index="5">
-<position/>
+<item historyLabel="3-waehleWissensstreiter/3-waehleWissensstreiter" index="3">
+<position model_uin="model:project::Modellierung" uin="design:view:::Vam8ynkgomy252jbw0v49"/>
 </item>
-<item historyLabel="3-Objektmodell/null" index="0">
-<position/>
+<item historyLabel="/Modellierung" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::V1hexuhgnlrkidjlh8bc5"/>
 </item>
-<item historyLabel="3-Objektmodell/Spieler" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.core.Spieler"/>
+<item historyLabel="Zustandsautomat/Zustandsautomat" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-d9nhuogocudzb84ub0hd"/>
 </item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.core.Spielerliste@lnkSpieler:jdt@e_class@src@src.domain.core.Spielerliste"/>
+<item historyLabel="/System" index="5">
+<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V-jr6xbagnsufxpq-9ertrd::design@node@@@8krugmgnsugh99-wwxa74"/>
 </item>
-<item historyLabel="Spielerliste.java" index="6">
-<position info="not_deleted" x="117" y="10"/>
+<item historyLabel="Zustandsautomat/Zustandsautomat" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-d9nhuogocudzb84ub0hd"/>
 </item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.core.Spielerliste@lnkSpieler:jdt@e_class@src@src.domain.core.Spielerliste"/>
+<item historyLabel="/System-Use-Cases" index="5">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
 </item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.core.Spielerliste@lnkSpieler:jdt@e_class@src@src.domain.core.Spielerliste"/>
+<item historyLabel="Zustandsautomat/Zustandsautomat" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-d9nhuogocudzb84ub0hd"/>
 </item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.core.Spielerliste@lnkSpieler:jdt@e_class@src@src.domain.core.Spielerliste"/>
+<item historyLabel="/Modellierung" index="0">
+<position model_uin="model:project::Modellierung" uin="design:view:::V1hexuhgnlrkidjlh8bc5"/>
 </item>
-<item historyLabel="3-bestimmeNameUndFarbe/null" index="2">
-<position/>
+<item historyLabel="Zustandsautomat/Zustandsautomat" index="1">
+<position model_uin="model:project::Modellierung" uin="design:view:::V-d9nhuogocudzb84ub0hd"/>
 </item>
-<item historyLabel="3-Objektmodell/null" index="0">
-<position/>
-</item>
-<item historyLabel="3-bestimmeKategorien/null" index="5">
-<position/>
-</item>
-<item historyLabel="3-waehleWissensstreiter/null" index="4">
-<position/>
-</item>
-<item historyLabel="3-Objektmodell/null" index="0">
-<position/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstandsanzeiger" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstandsanzeiger"/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstreiter" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstreiter"/>
-</item>
-<item historyLabel="3-bestimmeNameUndFarbe/null" index="2">
-<position/>
-</item>
-<item historyLabel="3-starteSpiel/null" index="1">
-<position/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstreiter" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstreiter"/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstandsanzeiger" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstandsanzeiger"/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstreiter" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstreiter"/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstandsanzeiger" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstandsanzeiger"/>
-</item>
-<item historyLabel="3-Objektmodell/6..12" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@e_class@src@src.domain.field.Spielfeld"/>
-</item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@e_class@src@src.domain.field.Spielfeld"/>
-</item>
-<item historyLabel="3-Objektmodell/4" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.core.Spieler@lnkWissensstandsanzeiger:jdt@l_ast@src@src.domain.core.Spieler@lnkWissensstandsanzeiger:jdt@e_class@src@src.domain.core.Spieler"/>
-</item>
-<item historyLabel="3-Objektmodell/Wissensstreiter" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.figure.Wissensstreiter"/>
-</item>
-<item historyLabel="3-Objektmodell/Assoziationsbeziehung" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@e_class@src@src.domain.field.Spielfeld"/>
-</item>
-<item historyLabel="3-Objektmodell/8..16" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstandsanzeiger:jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstandsanzeiger:jdt@e_class@src@src.domain.field.Spielfeld"/>
-</item>
-<item historyLabel="3-Objektmodell/6..12" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@l_ast@src@src.domain.field.Spielfeld@lnkWissensstreiter:jdt@e_class@src@src.domain.field.Spielfeld"/>
-</item>
-<item historyLabel="3-Objektmodell/3" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.core.Spieler@lnkWissensstreiter:jdt@l_ast@src@src.domain.core.Spieler@lnkWissensstreiter:jdt@e_class@src@src.domain.core.Spieler"/>
-</item>
-<item historyLabel="3-Objektmodell/Wuerfel" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.core.Wuerfel"/>
-</item>
-<item historyLabel="3-bestimmeNameUndFarbe/null" index="2">
-<position/>
-</item>
-<item historyLabel="3-starteWuerfelaktion/null" index="3">
-<position/>
-</item>
-<item historyLabel="3-Objektmodell/Wuerfel" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.core.Wuerfel"/>
-</item>
-<item historyLabel="3-Objektmodell/Kategorie" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.Kategorie"/>
-</item>
-<item historyLabel="3-Objektmodell/KategorieListe" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.KategorieListe"/>
-</item>
-<item historyLabel="3-bestimmeKategorien/null" index="5">
-<position/>
-</item>
-<item historyLabel="3-Objektmodell/KategorieListe" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.KategorieListe"/>
-</item>
-<item historyLabel="3-Objektmodell/Kategorie" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.Kategorie"/>
-</item>
-<item historyLabel="3-Objektmodell/KategorieListe" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.KategorieListe"/>
-</item>
-<item historyLabel="3-Objektmodell/Wuerfel" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.core.Wuerfel"/>
-</item>
-<item historyLabel="3-Objektmodell/KategorieListe" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.KategorieListe"/>
-</item>
-<item historyLabel="3-Objektmodell/Kategorie" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::jdt@e_class@src@src.domain.question.Kategorie"/>
-</item>
-<item active="true" historyLabel="3-Objektmodell/4" index="0">
-<position model_uin="model:project::Modellierung" uin="reference::design@view@@@V1hexuhgomyr0ty-l95afo::label@supplierCardinality@jdt@l_ast@src@src.domain.question.KategorieListe@lnkKategorie:jdt@l_ast@src@src.domain.question.KategorieListe@lnkKategorie:jdt@e_class@src@src.domain.question.KategorieListe"/>
+<item active="true" historyLabel="3-Objektmodell/3-Objektmodell" index="6">
+<position model_uin="model:project::Modellierung" uin="design:view:::V1hexuhgomyr0ty-l95afo"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -377,14 +257,32 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-Objektmodell" tooltip="3-Objektmodell">
+<persistable model="model:project::Modellierung" rc="design:view:::V1hexuhgomyr0ty-l95afo"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="System-Use-Cases" tooltip="System-Use-Cases">
+<persistable model="model:project::Modellierung" rc="design:view:::V-jr6xbagnsufxpq-9ertrd"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-starteWuerfelaktion" tooltip="3-starteWuerfelaktion">
+<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-waehleWissensstreiter" tooltip="3-waehleWissensstreiter">
+<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomy252jbw0v49"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-starteSpiel" tooltip="3-starteSpiel">
+<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomtqnbt3wc44e"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Zustandsautomat" tooltip="Zustandsautomat">
+<persistable model="model:project::Modellierung" rc="design:view:::V-d9nhuogocudzb84ub0hd"/>
+</file>
+<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Modellierung" tooltip="Modellierung">
+<persistable model="model:project::Modellierung" rc="design:view:::V1hexuhgnlrkidjlh8bc5"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spielerliste.java" tooltip="Modellierung/src/src/domain/core/Spielerliste.java">
 <persistable path="/Modellierung/src/src/domain/core/Spielerliste.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spielsystem.java" tooltip="Modellierung/src/src/domain/core/Spielsystem.java">
 <persistable path="/Modellierung/src/src/domain/core/Spielsystem.java"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-Objektmodell" tooltip="3-Objektmodell">
-<persistable model="model:project::Modellierung" rc="design:view:::V1hexuhgomyr0ty-l95afo"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wissensstreiter.java" tooltip="Modellierung/src/src/domain/figure/Wissensstreiter.java">
 <persistable path="/Modellierung/src/src/domain/figure/Wissensstreiter.java"/>
@@ -403,24 +301,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Spielsystem.java" tooltip="Modellierung/src/Spielsystem.java">
 <persistable path="/Modellierung/src/Spielsystem.java"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-waehleWissensstreiter" tooltip="3-waehleWissensstreiter">
-<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomy252jbw0v49"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Würfeln und Ziehen" tooltip="Würfeln und Ziehen">
-<persistable model="model:project::Modellierung" rc="design:view:::V-b8dyjignswsxrrt7zuti"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-starteWuerfelaktion" tooltip="3-starteWuerfelaktion">
-<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomwq8ohc8w7vc"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-bestimmeNameUndFarbe" tooltip="3-bestimmeNameUndFarbe">
-<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomvu9ob-aue5az"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="3-starteSpiel" tooltip="3-starteSpiel">
-<persistable model="model:project::Modellierung" rc="design:view:::Vam8ynkgomtqnbt3wc44e"/>
-</file>
-<file factoryID="com.borland.tg.gde.internal.ui.part.DiagramEditorInputFactory" id="com.borland.tg.gde.diagramEditor" name="Class Diagram1" tooltip="Class Diagram1">
-<persistable model="model:project::Analyse" rc="design:view:::V1hexuhgmotc03pmfjfp4"/>
 </file>
 </mruList>
 </workbench>

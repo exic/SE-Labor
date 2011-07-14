@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhfta2tnrj5j9odz">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="visibility" value="public"/>
+		<reference referencedUin="jdt:e_class:src:IObserver">
+			<property name="bounds" value="742,315,90,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ModelSubject">
+			<property name="bounds" value="55,497,120,218"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_gnt:src:ModelSubject:Subject">
+				<property name="sourceAnchor" value="180,649"/>
+				<property name="targetAnchor" value="500,649"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:model:ISubject">
+				<property name="sourceAnchor" value="116,135"/>
+				<property name="targetAnchor" value="135,135"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Subject">
+			<property name="bounds" value="495,555,103,153"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Subject:observers">
+				<property name="sourceAnchor" value="334,308"/>
+				<property name="targetAnchor" value="334,280"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:Controller">
+			<property name="bounds" value="435,335,119,140"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:Controller:view">
+				<property name="sourceAnchor" value="559,365"/>
+				<property name="targetAnchor" value="746,365"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:Controller:sModel">
+				<property name="sourceAnchor" value="469,480"/>
+				<property name="targetAnchor" value="165,501"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ObserverGUI">
+			<property name="bounds" value="29,-5,146,296"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:ObserverGUI:IObserver">
+				<property name="sourceAnchor" value="178,295"/>
+				<property name="targetAnchor" value="763,320"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ObserverGUI:ms">
+				<property name="sourceAnchor" value="99,295"/>
+				<property name="targetAnchor" value="99,502"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ObserverGUI:ct">
+				<property name="sourceAnchor" value="177,295"/>
+				<property name="targetAnchor" value="469,340"/>
+			</reference>
+			<reference referencedUin="jdt:e_class:src:sadfasdf.ViewObserver">
+				<reference referencedUin="jdt:l_impl:src:sadfasdf.ViewObserver:IObserver">
+					<property name="sourceAnchor" value="68,71"/>
+					<property name="targetAnchor" value="147,240"/>
+				</reference>
+				<reference referencedUin="jdt:l_ast:src:sadfasdf.ViewObserver:ct">
+					<property name="sourceAnchor" value="104,58"/>
+					<property name="targetAnchor" value="440,58"/>
+				</reference>
+				<reference referencedUin="jdt:l_ast:src:sadfasdf.ViewObserver:ms">
+					<property name="sourceAnchor" value="80,71"/>
+					<property name="targetAnchor" value="446,520"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ObserverExampleMain">
+			<property name="bounds" value="815,55,155,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:ObserverConsole">
+			<property name="bounds" value="468,35,124,153"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:ObserverConsole:ct">
+				<property name="sourceAnchor" value="504,192"/>
+				<property name="targetAnchor" value="504,340"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:ObserverConsole:IObserver">
+				<property name="sourceAnchor" value="565,192"/>
+				<property name="targetAnchor" value="780,320"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:ObserverConsole:ms">
+				<property name="sourceAnchor" value="475,193"/>
+				<property name="targetAnchor" value="150,502"/>
+			</reference>
+		</reference>
+	</view>
+</nodeSet>
