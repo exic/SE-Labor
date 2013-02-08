@@ -7,52 +7,51 @@
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.SpielGestartet">
-			<property name="bounds" value="695,245,109,80"/>
+			<property name="bounds" value="595,195,109,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_impl:src:src.domain.states.SpielGestartet:State">
-				<property name="sourceAnchor" value="725,250"/>
-				<property name="targetAnchor" value="608,80"/>
-				<property name="bendpoints" value=""/>
+				<property name="sourceAnchor" value="614,200"/>
+				<property name="targetAnchor" value="540,122"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.KategorienBestimmt">
-			<property name="bounds" value="5,125,145,80"/>
+			<property name="bounds" value="195,199,145,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_impl:src:src.domain.states.KategorienBestimmt:State">
-				<property name="sourceAnchor" value="155,151"/>
-				<property name="targetAnchor" value="540,49"/>
-				<property name="bendpoints" value=""/>
+				<property name="sourceAnchor" value="328,204"/>
+				<property name="targetAnchor" value="460,111"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.NameUndFarbeBestimmt">
-			<property name="bounds" value="5,5,170,80"/>
+			<property name="bounds" value="365,199,170,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_impl:src:src.domain.states.NameUndFarbeBestimmt:State">
-				<property name="sourceAnchor" value="180,38"/>
-				<property name="targetAnchor" value="540,38"/>
-				<property name="bendpoints" value=""/>
+				<property name="sourceAnchor" value="500,204"/>
+				<property name="targetAnchor" value="500,123"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.WuerfelAktionGestartet">
-			<property name="bounds" value="435,245,165,80"/>
+			<property name="bounds" value="935,245,165,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_impl:src:src.domain.states.WuerfelAktionGestartet:State">
-				<property name="sourceAnchor" value="552,250"/>
-				<property name="targetAnchor" value="552,80"/>
-				<property name="bendpoints" value=""/>
+				<property name="sourceAnchor" value="940,257"/>
+				<property name="targetAnchor" value="540,98"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.DarfWuerfeln">
-			<property name="bounds" value="235,295,106,80"/>
+			<property name="bounds" value="815,315,106,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_impl:src:src.domain.states.DarfWuerfeln:State">
-				<property name="sourceAnchor" value="320,300"/>
-				<property name="targetAnchor" value="542,80"/>
-				<property name="bendpoints" value=""/>
+				<property name="sourceAnchor" value="820,320"/>
+				<property name="targetAnchor" value="540,112"/>
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.states.Zustand">
-			<property name="bounds" value="5,5,162,145"/>
+			<property name="bounds" value="995,55,162,145"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.states.State">
+			<property name="bounds" value="455,38,80,80"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

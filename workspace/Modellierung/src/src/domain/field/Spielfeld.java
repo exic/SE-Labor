@@ -1,5 +1,7 @@
 package src.domain.field;
 
+import src.domain.figure.Wissensstreiter;
+
 
 public class Spielfeld {
 
@@ -15,7 +17,10 @@ public class Spielfeld {
 	 * @supplierCardinality 6..12
 	 */
 	java.util.List lnkWissensstreiter = null;
-	public void Spielfeld() {
+	public Spielfeld(int modus) {
+		
+	}
+	public void add(Wissensstreiter ws) {
 		return;
 	}
 }

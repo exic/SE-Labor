@@ -2,6 +2,8 @@ package src.domain.core;
 
 import java.awt.Color;
 
+import src.domain.figure.Wissensstreiter;
+
 public class Spieler{
 
 	/**
@@ -16,4 +18,9 @@ public class Spieler{
 	 * @supplierCardinality 4
 	 */
 	java.util.List lnkWissensstandsanzeiger = null;
+	public Spieler(String name, int farbe) {
+	}
+	public void add(Wissensstreiter ws) {
+		return;
+	}
 }

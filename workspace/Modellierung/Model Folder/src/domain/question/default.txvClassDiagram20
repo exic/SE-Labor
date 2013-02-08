@@ -5,5 +5,25 @@
 	<view uin="kju4gnlsanza-e71y3s">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.question.KategorieListe">
+			<property name="bounds" value="5,5,109,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:src.domain.question.KategorieListe:lnkKategorie">
+				<property name="sourceAnchor" value="119,50"/>
+				<property name="targetAnchor" value="199,50"/>
+				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.domain.question.KategorieListe:lnkKategorie">
+					<property name="bounds" value="179,28,10,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.question.Kategorie">
+			<property name="bounds" value="194,5,83,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.question.IKategorie">
+			<property name="bounds" value="5,125,116,124"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>

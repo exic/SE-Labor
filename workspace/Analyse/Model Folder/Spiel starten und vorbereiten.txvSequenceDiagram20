@@ -9,25 +9,9 @@
 		<property name="$name" value="Spiel starten und vorbereiten"/>
 		<reference referencedUin="design:node:::-yrgd8egn8wjb2msiwkjt">
 			<property name="$shortcutReference" value="true"/>
-			<property name="bounds" value="5,5,600,511"/>
+			<property name="bounds" value="5,5,600,431"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
-			<reference referencedUin="design:node:::-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
-				<property name="bounds" value="485,5,60,392"/>
-				<property name="location_set_by_user" value="true"/>
-				<reference referencedUin="design:node:::c87hzvgn8wkrmy-g9rbmz:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
-					<property name="bounds" value="20,118,20,100"/>
-					<property name="location_set_by_user" value="true"/>
-				</reference>
-				<reference referencedUin="design:node:::c87hzvgn8wmxae5b1t0h:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
-					<property name="bounds" value="20,240,20,66"/>
-					<property name="location_set_by_user" value="true"/>
-				</reference>
-				<reference referencedUin="design:node:::c87hzvgn8wjvoh5j7hw1:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
-					<property name="bounds" value="20,26,20,66"/>
-					<property name="location_set_by_user" value="true"/>
-				</reference>
-			</reference>
 			<reference referencedUin="design:node:::-y8nsowgn8wjmrtnjtwib:-yrgd8egn8wjb2msiwkjt">
 				<property name="bounds" value="45,5,60,392"/>
 				<property name="location_set_by_user" value="true"/>
@@ -81,6 +65,22 @@
 							</reference>
 						</reference>
 					</reference>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
+				<property name="bounds" value="485,5,60,392"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvgn8wjvoh5j7hw1:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
+					<property name="bounds" value="20,26,20,66"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+				<reference referencedUin="design:node:::c87hzvgn8wmxae5b1t0h:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
+					<property name="bounds" value="20,240,20,66"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+				<reference referencedUin="design:node:::c87hzvgn8wkrmy-g9rbmz:-y8nsowgn8wjnvo-o93zs3:-yrgd8egn8wjb2msiwkjt">
+					<property name="bounds" value="20,118,20,100"/>
+					<property name="location_set_by_user" value="true"/>
 				</reference>
 			</reference>
 		</reference>

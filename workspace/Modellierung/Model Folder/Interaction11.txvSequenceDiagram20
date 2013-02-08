@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkhcxp2ia3-eo1bhs">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8ehcxp26qlbxe7ay"/>
+		<property name="$name" value="Interaction11"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8ehcxp26qlbxe7ay">
+			<property name="$shortcutReference" value="true"/>
+			<property name="show_as_fullscreen" value="true"/>
+			<property name="bounds" value="5,5,1303,806"/>
+			<reference referencedUin="design:node:::l2gqtvhcxp38jr-eify8a:-yrgd8ehcxp26qlbxe7ay">
+				<property name="bounds" value="77,80,16,16"/>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowhcxp2l2x-xgc3lx:-yrgd8ehcxp26qlbxe7ay">
+				<property name="bounds" value="125,5,60,330"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvhcxp38jo2h19xh:-y8nsowhcxp2l2x-xgc3lx:-yrgd8ehcxp26qlbxe7ay">
+					<property name="bounds" value="20,23,20,221"/>
+					<property name="location_set_by_user" value="true"/>
+					<property name="bounds_setted_by_user" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+	<link uin="ieje0rhcxp2ia4-1e1e84">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkhcxp2ia3-eo1bhs" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8ehcxp26qlbxe7ay" role="Supplier"></participant>
+	</link>
+</nodeSet>

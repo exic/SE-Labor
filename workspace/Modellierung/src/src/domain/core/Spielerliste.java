@@ -10,4 +10,11 @@ public class Spielerliste {
 	 */
 	java.util.List lnkSpieler = null;
 
+	public Spielerliste(int spieleranzahl) {
+	}
+
+	public void add(Spieler sp) {
+		return;
+	}
+
 }

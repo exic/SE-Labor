@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkhcxpz5iw-yzmxbe">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8ehcxpz5hs-1ou98u"/>
+		<property name="$name" value="src.domain.controller.Game.operations"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="design:node:::-yrgd8ehcxpz5hs-1ou98u">
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds" value="5,5,771,411"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="design:node:::-y8nsowhcxqcs6b-ouu245:-yrgd8ehcxpz5hs-1ou98u">
+				<property name="bounds" value="485,5,94,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvhcxqesmg-6d0lhw:-y8nsowhcxqcs6b-ouu245:-yrgd8ehcxpz5hs-1ou98u">
+					<property name="bounds" value="37,42,20,24"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::l2gqtvhcxpz5id-cdmbvx:-yrgd8ehcxpz5hs-1ou98u">
+				<property name="bounds" value="17,73,16,16"/>
+				<reference referencedUin="sd20_message_container:design:node:::l2gqtvhcxpz5id-cdmbvx:-yrgd8ehcxpz5hs-1ou98u">
+					<property name="bounds" value="-22,-78,0,0"/>
+					<reference referencedUin="sd20_message|1|call|60(design:node:::l2gqtvhcxpz5id-cdmbvx:-yrgd8ehcxpz5hs-1ou98u)">
+						<property name="sourceAnchor" value="40,113"/>
+						<property name="targetAnchor" value="60,113"/>
+					</reference>
+				</reference>
+			</reference>
+			<reference referencedUin="design:node:::-y8nsowhcxpz5i2-lvdfom:-yrgd8ehcxpz5hs-1ou98u">
+				<property name="bounds" value="25,5,60,300"/>
+				<property name="location_set_by_user" value="true"/>
+				<reference referencedUin="design:node:::c87hzvhcxpz5iawj0xyh:-y8nsowhcxpz5i2-lvdfom:-yrgd8ehcxpz5hs-1ou98u">
+					<property name="bounds" value="20,16,20,24"/>
+					<reference referencedUin="design:node:::l2gqtvhcxqesmcz10it1:c87hzvhcxpz5iawj0xyh:-y8nsowhcxpz5i2-lvdfom:-yrgd8ehcxpz5hs-1ou98u">
+						<property name="bounds" value="0,26,20,24"/>
+						<property name="location_set_by_user" value="true"/>
+						<property name="background_color" value="240,240,240"/>
+						<reference referencedUin="sd20_message_container:design:node:::l2gqtvhcxqesmcz10it1:c87hzvhcxpz5iawj0xyh:-y8nsowhcxpz5i2-lvdfom:-yrgd8ehcxpz5hs-1ou98u">
+							<reference referencedUin="sd20_message|1|call|103(design:node:::l2gqtvhcxqesmcz10it1:c87hzvhcxpz5iawj0xyh:-y8nsowhcxpz5i2-lvdfom:-yrgd8ehcxpz5hs-1ou98u)">
+								<property name="sourceAnchor" value="543,67"/>
+								<property name="targetAnchor" value="543,67"/>
+								<property name="location_set_by_user" value="true"/>
+							</reference>
+						</reference>
+					</reference>
+				</reference>
+			</reference>
+		</reference>
+	</view>
+	<link uin="ieje0rhcxpz5ixn583fw">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkhcxpz5iw-yzmxbe" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8ehcxpz5hs-1ou98u" role="Supplier"></participant>
+	</link>
+</nodeSet>

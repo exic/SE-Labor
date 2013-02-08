@@ -6,7 +6,21 @@
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<reference referencedUin="jdt:e_class:src:src.domain.figure.Wissensstreiter">
-			<property name="bounds" value="0,0,114,80"/>
+			<property name="bounds" value="50,218,114,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.figure.Wissensstandsanzeiger">
+			<property name="bounds" value="183,-4,155,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_method:src:src.domain.figure.Wissensstandsanzeiger.Wissensstandsanzeiger:Wissensstandsanzeiger">
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.figure.IWissensstreiter">
+			<property name="bounds" value="183,95,118,124"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.figure.IWissensstandsanzeiger">
+			<property name="bounds" value="5,5,159,124"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

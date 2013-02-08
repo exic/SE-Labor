@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhhcxmtyvjfjt9qz">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.controller.Game">
+			<property name="bounds" value="275,75,195,106"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_method:src:src.domain.controller.Game.initialize:initialize">
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:src.domain.controller.Game:lnkWuerfel">
+				<property name="sourceAnchor" value="184,150"/>
+				<property name="targetAnchor" value="184,190"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:src.domain.controller.Game:lnkKategorieListe">
+				<property name="sourceAnchor" value="57,150"/>
+				<property name="targetAnchor" value="57,90"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:src.domain.controller.Game:IGame">
+				<property name="sourceAnchor" value="280,107"/>
+				<property name="targetAnchor" value="203,107"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.controller.IGame">
+			<property name="bounds" value="5,5,193,124"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:e_method:src:src.domain.controller.IGame.initialize:initialize">
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkhcxpjiomg46fck">
+			<property name="bounds" value="217,-4,258,74"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkhcxpz5iw-yzmxbe">
+			<property name="bounds" value="494,-4,257,74"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkhcxqle5e-be1cmg">
+			<property name="bounds" value="494,89,272,74"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

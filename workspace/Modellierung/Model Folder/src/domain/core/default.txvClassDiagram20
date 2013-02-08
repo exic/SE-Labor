@@ -6,60 +6,32 @@
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.ISpielVorbereitenUndStarten">
-			<property name="bounds" value="225,5,193,109"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$hidden" value="true"/>
-		</reference>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.IWuerfelnUndZiehen">
-			<property name="bounds" value="5,245,174,94"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$hidden" value="true"/>
-		</reference>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.SpielVorbereitenUndStartenHandler">
-			<property name="bounds" value="5,125,200,91"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$hidden" value="true"/>
-			<reference referencedUin="jdt:l_impl:src:src.domain.core.SpielVorbereitenUndStartenHandler:ISpielVorbereitenUndStarten">
-				<property name="sourceAnchor" value="197,130"/>
-				<property name="targetAnchor" value="230,112"/>
-			</reference>
-		</reference>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.WuerfelnUndZiehenHandler">
-			<property name="bounds" value="5,5,186,80"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$hidden" value="true"/>
-		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Wuerfel">
 			<property name="hideAll" value="true"/>
 			<property name="bounds" value="12,5,80,80"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Spielerliste">
-			<property name="bounds" value="179,145,90,80"/>
+			<property name="bounds" value="179,145,95,91"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielerliste:lnkSpieler">
-				<property name="sourceAnchor" value="229,230"/>
+				<property name="sourceAnchor" value="229,241"/>
 				<property name="targetAnchor" value="229,309"/>
 				<reference referencedUin="label:supplierCardinality:jdt:l_ast:src:src.domain.core.Spielerliste:lnkSpieler">
 					<property name="bounds" value="232,280,21,19"/>
 				</reference>
 			</reference>
 		</reference>
-		<reference referencedUin="jdt:e_class:src:src.domain.core.Spielsystem">
-			<property name="bounds" value="5,145,94,80"/>
-			<property name="location_set_by_user" value="true"/>
-			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkSpielerliste">
-				<property name="sourceAnchor" value="104,190"/>
-				<property name="targetAnchor" value="184,190"/>
-			</reference>
-			<reference referencedUin="jdt:l_ast:src:src.domain.core.Spielsystem:lnkWuerfel">
-				<property name="sourceAnchor" value="57,150"/>
-				<property name="targetAnchor" value="57,90"/>
-			</reference>
-		</reference>
 		<reference referencedUin="jdt:e_class:src:src.domain.core.Spieler">
-			<property name="bounds" value="184,304,80,80"/>
+			<property name="bounds" value="184,304,95,91"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::Vam8ynkgq3iw8fk-yqimm">
+			<property name="bounds" value="515,55,261,74"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:src.domain.core.Spielsystem">
+			<property name="bounds" value="135,35,95,80"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

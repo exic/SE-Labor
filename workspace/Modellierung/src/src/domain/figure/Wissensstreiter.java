@@ -4,4 +4,7 @@ import java.awt.Color;
 
 public class Wissensstreiter{
 
+	public Wissensstreiter(int farbe) {
+	}
+
 }

@@ -5,5 +5,10 @@
 	<view uin="g2jpdgnlsanj3ev8nra">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:src.domain.field.Spielfeld">
+			<property name="bounds" value="5,5,95,91"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>

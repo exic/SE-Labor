@@ -7,15 +7,15 @@
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
 		<reference referencedUin="design:view:::ba9i2gnlsan97ydk42k">
-			<property name="bounds" value="195,211,90,139"/>
+			<property name="bounds" value="195,211,235,155"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::kju4gnlsanza-e71y3s">
-			<property name="bounds" value="441,215,102,91"/>
+			<property name="bounds" value="441,215,102,107"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::b3730gnlsann1-h0usx9">
-			<property name="bounds" value="295,35,148,91"/>
+			<property name="bounds" value="295,35,151,123"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 		<reference referencedUin="design:view:::g2jpdgnlsanj3ev8nra">
@@ -26,6 +26,8 @@
 			<property name="bounds" value="5,5,162,155"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="$hidden" value="true"/>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhhcxmtyvjfjt9qz">
 		</reference>
 	</view>
 </nodeSet>

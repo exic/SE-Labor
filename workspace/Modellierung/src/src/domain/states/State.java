@@ -1,15 +1,3 @@
 package src.domain.states;
-
-public class State {
-	
-	private static Zustand state;
-
-	public static Zustand getStateSpielGestartet() {
-		return Zustand.SpielGestartet;
-	}
-	
-	public static void setState(Zustand nState) {
-		state = nState;
-	}
-	
+public interface State {
 }

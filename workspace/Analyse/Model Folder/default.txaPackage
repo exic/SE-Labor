@@ -287,7 +287,6 @@
 			<link uin="ieje0rgmeuld9kd1sfoi">
 				<property name="$metaclass" value="ControlFlow20"/>
 				<property name="label" value="Noch nicht alle Wissensstreiter im Spiel"/>
-				<property name="guard" value="noch nicht"/>
 				<participant referencedUin="design:node:::l7v8cgmetkr8ttai2kz:-46k66rgmetipz9os2hhk" role="Client"></participant>
 				<participant referencedUin="design:node:::-qbjze4gmeul02q-b2ae8l:-46k66rgmetipz9os2hhk" role="Supplier"></participant>
 			</link>
